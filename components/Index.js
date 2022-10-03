@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Index = () => {
   return (
     <div>
