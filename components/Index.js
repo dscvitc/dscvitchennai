@@ -2,6 +2,20 @@ import Image from "next/image";
 const Index = () => {
   return (
     <div>
+      <img
+        className="float-right"
+        src="/sammy-devices.png"
+        alt="Sammy"
+        width={500}
+        height={500}
+      ></img>
+      <img
+        className="absolute bottom-0 ml-96"
+        src="/down-arrow.png"
+        alt="Down Arrow"
+        width={40}
+        height={40}
+      ></img>
       <br></br>
       <br></br>
       <br></br>
@@ -19,14 +33,15 @@ const Index = () => {
           many. Join us to be a part of this exciting adventure!
         </div>
       </div>
-      <Image
-        className="object-right"
+
+      {/* <Image
+        className="absolute mr-4"
         src="/sammy-devices.png"
         alt="Sammy"
         width={500}
         height={500}
-      />
-      <Image src="/down-arrow.png" alt="down arrow" width={40} height={40} />
+      /> */}
+      {/* <Image src="/down-arrow.png" alt="down arrow" width={40} height={40} /> */}
     </div>
   );
 };
