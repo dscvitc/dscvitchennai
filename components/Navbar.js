@@ -16,7 +16,7 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="#">
-                <h2 className="text-2xl text-black font-bold">GDSC</h2>
+                <h2 className="text-2xl text-black font-bold">GDSC VIT-CHENNAI</h2>
               </a>
               <div className="md:hidden">
                 <button
@@ -69,23 +69,28 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="text-black">
-                  <Link href="/blogs">
+                  <Link href="/">
                     <a>Vision</a>
                   </Link>
                 </li>
                 <li className="text-black">
-                  <Link href="/about">
+                  <Link href="/">
                     <a>Team</a>
                   </Link>
                 </li>
                 <li className="text-black">
-                  <Link href="/contact">
+                  <Link href="/">
                     <a>Events</a>
                   </Link>
                 </li>
                 <li className="text-black">
-                  <Link href="/contact">
+                  <Link href="/">
                     <a>Contact Us</a>
+                  </Link>
+                </li>
+                <li className="text-black">
+                  <Link href="/contributors">
+                    <a>Contributors</a>
                   </Link>
                 </li>
               </ul>
