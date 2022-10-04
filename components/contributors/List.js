@@ -2,6 +2,7 @@ import Link from "next/link";
 import ContributorList from "../../data/contributors.json";
 import { FaLinkedin, FaGithub, FaSearch } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const cardVariants = {};
 
@@ -35,6 +36,14 @@ const CardItem = ({ item }) => {
 };
 
 export default function CardList() {
+  const [input, setInput] = useState("");
+  const [actualList, setActualList] = useState(ContributorList);
+  const [list, setList] = useState(ContributorList);
+
+  const handleSubmit = () => {
+    setList(actualList.filter((item) => item.name.includes(input)));
+  };
+
   return (
     <section className="max-w-7xl mx-auto">
       <div className="flex w-full justify-between items-center">
@@ -43,19 +52,22 @@ export default function CardList() {
         </h1>
         <div className="flex items-center shadow-lg bg-slate-100 px-4 py-2 rounded-lg">
           <motion.div
+            onClick={() => handleSubmit()}
             whileHover={{ scale: 1.1 }}
             className="hover:cursor-pointer"
           >
             <FaSearch color="grey" size={20} />
           </motion.div>
           <input
+            value={input}
+            onChange={(event) => setInput(event.target.value)}
             className="mx-5 bg-transparent focus:outline-none text-slate-800"
             placeholder="Enter your name"
           />
         </div>
       </div>
       <div className="grid grid-cols-3 gap-5">
-        {ContributorList.map((item, index) => (
+        {list.map((item, index) => (
           <CardItem key={index} item={item} />
         ))}
       </div>
