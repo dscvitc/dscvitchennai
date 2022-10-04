@@ -30,10 +30,12 @@ const CardItem = ({ item }) => {
 
 export default function CardList() {
   return (
-    <div className="grid grid-cols-3 gap-5 mx-5 my-5">
-      {ContributorList.map((item, index) => (
-        <CardItem key={index} item={item} />
-      ))}
-    </div>
+    <section className="max-w-7xl mx-auto">
+      <div className="grid grid-cols-3 gap-5 mx-5 my-5">
+        {ContributorList.map((item, index) => (
+          <CardItem key={index} item={item} />
+        ))}
+      </div>
+    </section>
   );
 }
