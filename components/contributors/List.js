@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ContributorList from "../../data/contributors.json";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaSearch } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const cardVariants = {};
@@ -37,9 +37,23 @@ const CardItem = ({ item }) => {
 export default function CardList() {
   return (
     <section className="max-w-7xl mx-auto">
-      <h1 className="my-10 text-center text-2xl font-semibold">
-        Contributors List
-      </h1>
+      <div className="flex w-full justify-between items-center">
+        <h1 className="my-10 text-center text-2xl font-semibold">
+          Contributors List
+        </h1>
+        <div className="flex items-center shadow-lg bg-slate-100 px-4 py-2 rounded-lg">
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            className="hover:cursor-pointer"
+          >
+            <FaSearch color="grey" size={20} />
+          </motion.div>
+          <input
+            className="mx-5 bg-transparent focus:outline-none text-slate-800"
+            placeholder="Enter your name"
+          />
+        </div>
+      </div>
       <div className="grid grid-cols-3 gap-5">
         {ContributorList.map((item, index) => (
           <CardItem key={index} item={item} />
