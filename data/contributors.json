@@ -1,8 +1,62 @@
 [
   {
     "name": "Nimish Kashyap",
-    "regNo": "20BRS1049",
     "image": "https://avatars.githubusercontent.com/u/74850106?v=4",
+    "description": "Enthusiastic Web Developer",
+    "github": "https://github.com/NimishKashyap",
+    "linkedIn": "https://www.linkedin.com/in/nimish-kashyap/",
+    "projects": [
+      {
+        "name": "DronaJr",
+        "github": "https://github.com/NimishKashyap/DronaJr",
+        "stack": ["React Native", "NestJS", "NodeJS", "Docker", "MongoDB"]
+      },
+      {
+        "name": "Microservices E-Commerce Project",
+        "github": "https://github.com/NimishKashyap/ticketing_project",
+        "stack": [
+          "NextJS",
+          "Docker",
+          "MongoDB",
+          "Kubernetes",
+          "Microservice",
+          "TypeScript",
+          "NATS"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nimish Kashyap",
+    "image": "https://avatars.githubusercontent.com/u/74850106?v=4",
+    "description": "Enthusiastic Web Developer",
+    "github": "https://github.com/NimishKashyap",
+    "linkedIn": "https://www.linkedin.com/in/nimish-kashyap/",
+    "projects": [
+      {
+        "name": "DronaJr",
+        "github": "https://github.com/NimishKashyap/DronaJr",
+        "stack": ["React Native", "NestJS", "NodeJS", "Docker", "MongoDB"]
+      },
+      {
+        "name": "Microservices E-Commerce Project",
+        "github": "https://github.com/NimishKashyap/ticketing_project",
+        "stack": [
+          "NextJS",
+          "Docker",
+          "MongoDB",
+          "Kubernetes",
+          "Microservice",
+          "TypeScript",
+          "NATS"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nimish Kashyap",
+    "image": "https://avatars.githubusercontent.com/u/74850106?v=4",
+    "description": "Enthusiastic Web Developer",
     "github": "https://github.com/NimishKashyap",
     "linkedIn": "https://www.linkedin.com/in/nimish-kashyap/",
     "projects": [
