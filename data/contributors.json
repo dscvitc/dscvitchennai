@@ -1,27 +1,23 @@
 [
   {
-    "name": "Nimish Kashyap",
-    "image": "https://avatars.githubusercontent.com/u/74850106?v=4",
-    "description": "Enthusiastic Web Developer",
-    "github": "https://github.com/NimishKashyap",
-    "linkedIn": "https://www.linkedin.com/in/nimish-kashyap/",
+    "name": "Fidal Mathew",
+    "image": "https://avatars.githubusercontent.com/u/84982038?v=4",
+    "description": "Web Developer | Learning :)",
+    "github": "https://github.com/FidalMathew",
+    "linkedIn": "https://www.linkedin.com/in/fidalmathew/",
     "projects": [
       {
-        "name": "DronaJr",
-        "github": "https://github.com/NimishKashyap/DronaJr",
-        "stack": ["React Native", "NestJS", "NodeJS", "Docker", "MongoDB"]
+        "name": "TodoNotify",
+        "github": "https://github.com/FidalMathew/TodoNotify",
+        "desc":"A MERN stack application that simplifies the work environment. It enables us to manage your team efficiently by notifying workers about the latest updates/tasks through email notifications.",
+        "stack": ["React",  "NodeJS", "Express", "MongoDB"]
       },
       {
-        "name": "Microservices E-Commerce Project",
-        "github": "https://github.com/NimishKashyap/ticketing_project",
+        "name": "Poke-dex",
+        "github": "https://github.com/FidalMathew/Poke-dex",
+        "desc":"Search any pokemon and get its picture and its type. Made using PokeAPI",
         "stack": [
-          "NextJS",
-          "Docker",
-          "MongoDB",
-          "Kubernetes",
-          "Microservice",
-          "TypeScript",
-          "NATS"
+          "React"
         ]
       }
     ]
