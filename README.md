@@ -18,7 +18,7 @@ Hi there 👋
 > ## ✍&nbsp; DESCRIPTION
 >
 > This is the official website for DSC VIT Chennai showing all about our team and events.
-<br>
+
 > ## 📂&nbsp; FRAMEWORKS USED
 
 * Next.js
