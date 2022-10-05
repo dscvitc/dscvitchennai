@@ -31,16 +31,15 @@ Hi there 👋
 
 <br>
 <br>
-
-> ## 👩‍💻&nbsp; WEBSITE DESIGN
-<img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/GDSC%20Website%20Mockup.png" alt="DSC Design" />
-
-<br>
-<br>
-<br>
-
 > ## 👋&nbsp; SOCIAL MEDIA
 &nbsp;
 <a href="https://www.linkedin.com/company/dsc-vit-chennai"><img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/linkedin.png" alt="DSC Linkedin" width="21px"/></a>
 <a href="https://www.instagram.com/gdscvitchennai/"><img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/instagram.png" alt="DSC Instagram" width="21px"/></a>
 <a href="https://discord.gg/FE7XE9ttmU"><img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/discord.png" alt="DSC Discord" width="21px"/></a>
+
+<br>
+<br>
+
+> ## 👩‍💻&nbsp; WEBSITE DESIGN
+<img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/GDSC%20Website%20Mockup.png" alt="DSC Design" />
+
