@@ -9,11 +9,10 @@ Hi there 👋
             <img src='https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/DSC%20Vellore%20Institute%20of%20Technology%2C%20Chennai%20Light%20Horizontal-Logo.png'>
             </a>
         </td>
-        <td><h2><b>DSC | VIT Chennai</b></h2></td>
+        <td><h2><b>DSC VIT Chennai</b></h2></td>
     </tr>
 </table>
-<h2>Official website for DSC VIT chennai.</h2>
-<br>
+<h3>Official website for DSC VIT chennai.</h3>
 <br>
 
 > ## ✍&nbsp; DESCRIPTION
@@ -22,13 +21,15 @@ Hi there 👋
 <br>
 > ## 📂&nbsp; FRAMEWORKS USED
 
-- Next.js
-- Tailwind CSS
-<br>
+* Next.js
+* Tailwind CSS
+
+
 > ## 💻&nbsp; GETTING STARTED
 
 => **Refer to <a href="https://github.com/dscvitc/dscvitchennai/blob/main/Contributing.md">Contributing.md</a> to start contributing.**
 <br>
+
 > ## 👋&nbsp; SOCIAL MEDIA
 &nbsp;
 <a href="https://www.linkedin.com/company/dsc-vit-chennai"><img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/linkedin.png" alt="DSC Linkedin" width="21px"/></a>
