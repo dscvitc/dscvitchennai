@@ -23,7 +23,7 @@ const Index = () => {
       <br></br>
       <div className="box-content h-28 w-3/5 p-4  m4">
         <h1 className="text-6xl">
-          Weclome to VIT Chennai's Google Developer Student Club!
+          Welcome to VIT Chennai's Google Developer Student Club!
         </h1>
         <br></br>
         <br></br>
