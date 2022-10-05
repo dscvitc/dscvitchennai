@@ -25,6 +25,7 @@ Hi there 👋
 * Tailwind CSS
 
 
+>
 > ## 💻&nbsp; GETTING STARTED
 
 => **Refer to <a href="https://github.com/dscvitc/dscvitchennai/blob/main/Contributing.md">Contributing.md</a> to start contributing.**
