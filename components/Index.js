@@ -2,20 +2,20 @@ import Image from "next/image";
 const Index = () => {
   return (
     <div>
-      <img
+      <Image
         className="float-right"
         src="/sammy-devices.png"
         alt="Sammy"
         width={500}
         height={500}
-      ></img>
-      <img
+      ></Image>
+      <Image
         className="absolute bottom-0 ml-96"
         src="/down-arrow.png"
         alt="Down Arrow"
         width={40}
         height={40}
-      ></img>
+      ></Image>
       <br></br>
       <br></br>
       <br></br>
