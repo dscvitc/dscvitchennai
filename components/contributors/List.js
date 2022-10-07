@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 import ContributorList from "../../data/contributors.json";
 import { FaLinkedin, FaGithub, FaSearch } from "react-icons/fa";
 import { motion } from "framer-motion";
