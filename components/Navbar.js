@@ -16,7 +16,7 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="#">
-                <h2 className="text-2xl text-black font-bold">GDSC VIT-CHENNAI</h2>
+                <img alt="Logo" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/DSC%20Vellore%20Institute%20of%20Technology%2C%20Chennai%20Light%20Horizontal-Logo.png" width="388px" height="60px" >
               </a>
               <div className="md:hidden">
                 <button
