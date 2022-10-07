@@ -9,7 +9,7 @@ const Navbar = () => {
       <Head>
         <title>GDSC VIT Chennai</title>
         <meta name="description" content="GDSC VIT Chennai" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/gdsc.png" />
       </Head>
       <nav className="w-full shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
