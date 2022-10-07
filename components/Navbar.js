@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-
+import Image from "next/image";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
@@ -9,14 +9,18 @@ const Navbar = () => {
       <Head>
         <title>GDSC VIT Chennai</title>
         <meta name="description" content="GDSC VIT Chennai" />
-        <link rel="icon" href="/gdsc.png" />
+        <link rel="icon" href="gdsc.png" />
       </Head>
       <nav className="w-full shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+          <Image src="/gdsc.png" alt="gdsc logo" width="50vh" height="50vh" />
+
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="#">
-                <h2 className="text-2xl text-black font-bold">GDSC VIT-CHENNAI</h2>
+                <h2 className="text-2xl text-black font-bold">
+                  GDSC VIT-CHENNAI
+                </h2>
               </a>
               <div className="md:hidden">
                 <button
