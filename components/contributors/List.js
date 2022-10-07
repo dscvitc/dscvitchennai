@@ -13,7 +13,7 @@ const CardItem = ({ item }) => {
       className="bg-slate-100 flex flex-col justify-evenly items-center h-80 rounded-lg shadow-lg"
     >
       <div className="w-36 h-36 rounded-full overflow-hidden">
-        <img
+        <Image
           src={item.image !== null ? item.image : "/assets/avatar.jpg"}
           alt="Placeholder"
         />
