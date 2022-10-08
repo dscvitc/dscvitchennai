@@ -17,6 +17,9 @@ const CardItem = ({ item }) => {
         <Image
           src={item.image !== null ? item.image : "/assets/avatar.jpg"}
           alt="Placeholder"
+          className="relative"
+          width={200}
+          height={200}
         />
       </div>
       <h1 className="text-xl font-bold">
