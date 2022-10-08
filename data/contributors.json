@@ -9,16 +9,14 @@
       {
         "name": "TodoNotify",
         "github": "https://github.com/FidalMathew/TodoNotify",
-        "desc":"A MERN stack application that simplifies the work environment. It enables us to manage your team efficiently by notifying workers about the latest updates/tasks through email notifications.",
-        "stack": ["React",  "NodeJS", "Express", "MongoDB"]
+        "desc": "A MERN stack application that simplifies the work environment. It enables us to manage your team efficiently by notifying workers about the latest updates/tasks through email notifications.",
+        "stack": ["React", "NodeJS", "Express", "MongoDB"]
       },
       {
         "name": "Poke-dex",
         "github": "https://github.com/FidalMathew/Poke-dex",
-        "desc":"Search any pokemon and get its picture and its type. Made using PokeAPI",
-        "stack": [
-          "React"
-        ]
+        "desc": "Search any pokemon and get its picture and its type. Made using PokeAPI",
+        "stack": ["React"]
       }
     ]
   },
