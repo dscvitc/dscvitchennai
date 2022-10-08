@@ -5,9 +5,16 @@ import Navbar from "../components/Navbar";
 import Index from "../components/Index";
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-      <Index />
-    </div>
+    <>
+      <Head>
+        <title>GDSC VIT Chennai</title>
+        <meta name="description" content="GDSC VIT Chennai" />
+        <link rel="icon" href="gdsc.png" />
+      </Head>
+      <div>
+        <Navbar />
+        <Index />
+      </div>
+    </>
   );
 }
