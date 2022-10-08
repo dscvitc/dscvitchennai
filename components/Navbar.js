@@ -5,7 +5,7 @@ import Image from "next/image";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full shadow-lg sticky top-0 bg-white">
+    <nav className="w-full shadow-lg md:sticky top-0 bg-white">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <Image src="/gdsc.png" alt="gdsc logo" width="50vh" height="50vh" />
 
