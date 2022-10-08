@@ -5,7 +5,7 @@ Hi there 👋
 <table class="table table-sm" >
     <tr>
         <td>
-            <a href="dscvitchennai-vkk6.vercel.app/">
+            <a href="https://dscvitchennai-nine.vercel.app/">
             <img src='https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/DSC%20Vellore%20Institute%20of%20Technology%2C%20Chennai%20Light%20Horizontal-Logo.png'>
             </a>
         </td>
