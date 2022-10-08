@@ -1,47 +1,42 @@
 import Image from "next/image";
+import styles from "./Index.module.css";
 const Index = () => {
   return (
-    <div>
-      <Image
-        className="float-right"
-        src="/sammy-devices.png"
-        alt="Sammy"
-        width={500}
-        height={500}
-      ></Image>
-      <Image
-        className="absolute bottom-0 ml-96"
-        src="/down-arrow.png"
-        alt="Down Arrow"
-        width={40}
-        height={40}
-      ></Image>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <div className="box-content h-28 w-3/5 p-4  m4">
-        <h1 className="text-6xl">
-          Welcome to VIT Chennai's Google Developer Student Club!
-        </h1>
-        <br></br>
-        <br></br>
-        <div className="text-3xl">
-          At GDSC VITC we aim to help each other learn and grow. This is where
-          coders,designers and managers come together to create and inspire
-          many. Join us to be a part of this exciting adventure!
+    <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
+      {" "}
+      {/*root of page*/}
+      <div
+        className={`lg:grid grid-cols-2 grid-rows-2 ${styles.heroContainer}`}
+      >
+        <div className="mx-auto w-full p-4 md:h-[84vh] md:flex flex-col justify-center lg:max-w-2xl">
+          <h1 className="text-4xl md:text-3xl font-bold md:font-semibold lg:text-5xl lg:font-medium ">
+            Welcome to VIT Chennai's Google Developer Student Club!
+          </h1>
+          <p className="text-xl my-4 lg:text-2xl">
+            At GDSC VITC we aim to help each other learn and grow. This is where
+            coders,designers and managers come together to create and inspire
+            many. Join us to be a part of this exciting adventure!
+          </p>
+        </div>
+        <div className="flex justify-center md:hidden lg:block lg:w-fit lg:m-auto">
+          <Image
+            src="/sammy-devices.png"
+            alt="Sammy"
+            width={500}
+            height={500}
+            className=""
+          />
+        </div>
+        <div className="flex justify-center col-span-2 h-fit">
+          <Image
+            src="/down-arrow.png"
+            alt="Down Arrow"
+            width={40}
+            height={40}
+            className="animate-bounce"
+          />
         </div>
       </div>
-
-      {/* <Image
-        className="absolute mr-4"
-        src="/sammy-devices.png"
-        alt="Sammy"
-        width={500}
-        height={500}
-      /> */}
-      {/* <Image src="/down-arrow.png" alt="down arrow" width={40} height={40} /> */}
     </div>
   );
 };
