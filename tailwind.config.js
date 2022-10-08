@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "sans-gl": "Open Sans",
+      },
       colors: {
         "Rich Black": "#040404",
         Silver: "#C1C1C1",
