@@ -17,7 +17,7 @@ const Index = () => {
           </p>
         </div>
         <div className="px-4 py-8">
-          <Image src={HeroImage} width={912} height={912} />
+          <Image src={HeroImage} width={912} height={912} alt="Sammy Devices" />
         </div>
       </div>
     </div>
