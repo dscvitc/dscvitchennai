@@ -5,10 +5,9 @@ import Image from "next/image";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full shadow-lg md:sticky top-0 bg-white">
+    <nav className="w-full shadow-lg md:sticky top-0 bg-white z-50">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <Image src="/gdsc.png" alt="gdsc logo" width="50vh" height="50vh" />
-
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#">
@@ -60,14 +59,14 @@ const Navbar = () => {
               'flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"}'
             }
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 child:text-sm lg:child:text-base child-hover:underline underline-offset-[100%]">
               <li className="text-black">
                 <Link href="/">
                   <a>Home</a>
                 </Link>
               </li>
               <li className="text-black">
-                <Link href="/">
+                <Link href="#vision">
                   <a>Vision</a>
                 </Link>
               </li>
