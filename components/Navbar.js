@@ -8,7 +8,6 @@ const Navbar = () => {
     <nav className="w-full shadow-lg md:sticky top-0 bg-white z-50">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <Image src="/gdsc.png" alt="gdsc logo" width="50vh" height="50vh" />
-
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#">
