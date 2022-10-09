@@ -67,7 +67,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="text-black">
-                <Link href="/">
+                <Link href="#vision">
                   <a>Vision</a>
                 </Link>
               </li>
