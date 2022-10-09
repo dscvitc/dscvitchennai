@@ -23,3 +23,67 @@ body {
   color: black;
   background: white;
 }
+
+.t {
+  position: relative;
+  border-radius: 50%;
+}
+
+/* .circle-photo img{
+  position: relative;
+  border-radius:50%;
+} */
+.card {
+  margin: auto;
+
+  padding: 10px;
+  width: 283px;
+  height: 289px;
+  background-color: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  border-radius: 25px;
+}
+.paragarph-center {
+  text-align: center;
+}
+.circle-photo {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  margin: -100px 0px 0px 43px;
+  padding: 0px;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  border: 2px solid white;
+  position: relative;
+}
+.title {
+  margin-top: 9px;
+}
+.ps {
+  margin: 100px 20px;
+}
+.control-ps {
+  position: relative;
+}
+
+.carousel-item {
+  height: 30rem;
+  background-color: #777;
+  width: 100%;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: auto;
+}
+
+.carousel {
+  top: 15rem;
+}
+
+@media (max-width: 880px) {
+  .carousel {
+    top: 60rem;
+  }
+}

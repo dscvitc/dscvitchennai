@@ -1,4 +1,10 @@
 import Image from "next/image";
+import Carousel from "./contributors/Carousel";
+import Script from "next/script";
+// import $ from "jquery";
+// import Popper from "popper.js";
+// import "bootstrap/dist/js/bootstrap.bundle.min";
+
 const Index = () => {
   return (
     <div>
@@ -32,6 +38,12 @@ const Index = () => {
           coders,designers and managers come together to create and inspire
           many. Join us to be a part of this exciting adventure!
         </div>
+
+        <br></br>
+      </div>
+
+      <div className="box-content carousel h-28 w-5/5 p-10 m4">
+        <Carousel />
       </div>
 
       {/* <Image
@@ -42,6 +54,12 @@ const Index = () => {
         height={500}
       /> */}
       {/* <Image src="/down-arrow.png" alt="down arrow" width={40} height={40} /> */}
+      <br></br>
+      <Script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+      ></Script>
     </div>
   );
 };
