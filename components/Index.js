@@ -2,13 +2,12 @@ import Image from "next/image";
 import styles from "./Index.module.css";
 const Index = () => {
   return (
-    <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
-      {" "}
+    <>
       {/*root of page*/}
       <div
         className={`lg:grid grid-cols-2 grid-rows-2 ${styles.heroContainer}`}
       >
-        <div className="mx-auto w-full p-4 md:h-[84vh] md:flex flex-col justify-center lg:max-w-2xl">
+        <div className="mx-auto w-full p-4 md:h-[85vh] md:flex flex-col justify-center lg:max-w-2xl">
           <h1 className="text-4xl md:text-3xl font-bold md:font-semibold lg:text-5xl lg:font-medium ">
             Welcome to VIT Chennai's Google Developer Student Club!
           </h1>
@@ -37,7 +36,7 @@ const Index = () => {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default Index;
