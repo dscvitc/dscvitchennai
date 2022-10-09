@@ -16,7 +16,7 @@ export default function Home() {
         <Navbar />
         <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
           {" "}
-          {}
+          {/* Width snap for the whole content. Must be added to the root of every "page" */}
           <Index />
           <Vision />
         </div>
