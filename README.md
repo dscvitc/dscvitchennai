@@ -26,7 +26,7 @@
 > ## 👩‍💻&nbsp; WEBSITE DESIGN
 >
 > <img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/GDSC%20Website%20Mockup.png" alt="DSC Design" />
-
+<br></br>
 > ## 👋&nbsp; SOCIAL MEDIA
 >
 > <br/>
