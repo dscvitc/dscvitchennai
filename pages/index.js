@@ -6,7 +6,9 @@ import Index from "../components/Index";
 export default function Home() {
   return (
     <div>
+      {/* <div className="sticky top-0"> */}
       <Navbar />
+      {/* </div> */}
       <Index />
     </div>
   );
