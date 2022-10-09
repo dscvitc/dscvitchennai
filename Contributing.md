@@ -40,9 +40,10 @@ git push -u origin "branch name"
 ```
 
 ## Create a PR
-First things first,dont forget to star the repo!
-Click on contribute and perfrom a Pull Request,and also describe a bit what changes you have made and try to attach screenshots.
-Keep in mind you need to make your PRs to the dev branch.
-Follow the Pull Request Template strictly.
 
+Click on contribute and perform a Pull Request. Describe the changes you have made and attach relevent screenshots.
+
+**NOTE:** Keep in mind, make your PRs to the **dev** branch only.
+
+Follow the Pull Request Template strictly.
 Thank you for contributing :)
