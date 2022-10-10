@@ -16,6 +16,9 @@ module.exports = {
         "Green Pigment": "#34A853",
         Cinnabar: "#EB4335",
       },
+      fontFamily: {
+        productSans: ["ProductSans", "sans-serif"],
+      },
     },
   },
   plugins: [],
