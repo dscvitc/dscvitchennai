@@ -1,5 +1,5 @@
 // Using the octokit API to get list of contributors to the Repo
-// /api/contrib
+// /api/contributors
 
 import process from "process";
 const { Octokit } = require("@octokit/rest");
