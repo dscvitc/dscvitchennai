@@ -1,0 +1,47 @@
+name: 💡 Enhancement Request
+description: Have a new idea/feature for GDSC VITC? Please suggest!
+title: "[FEATURE] <description>"
+labels: ["enhancement", "suggestion"]
+  
+body:
+  - type: markdown
+    id: 
+    attributes:
+      value: |
+        **Your issue may already be reported!**
+        **Please search on the issues tab before creating one.**
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the enhancement you propose, also include what you tried and what worked.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: Tell us how it should work
+    validations:
+      required: false
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Behaviour
+      description: Explain the difference of expected Behavior from current behaviour 
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this idea?
+    validations:
+      required: false
+  
+  - type: markdown
+    attributes:
+      value: |
+       ## Thanks for taking the time to add a issue!
+        To claim this issue, please ask for it below. 
+        The maintainers will assign a contributor to this issue.
