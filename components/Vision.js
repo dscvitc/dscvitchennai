@@ -46,17 +46,19 @@ const Vision = () => {
               </div>
             </div>
           </div>
-          <div className="max-w-full grid grid-cols-2 sm:grid-cols-4 gap-8 py-8 sm:px-0 my-32">
+          <div className="max-w-full grid grid-cols-2 sm:grid-cols-4 gap-8 py-8 sm:px-0 my-32 mx-16">
             {visions.map(({ id, title, description, classes }) => (
               <div key={id} className="flex flex-col">
                 <div className="my-4">
                   <span
-                    className={`font-bold rounded-lg p-2 px-3 ${classes} shadow-md`}
+                    className={`font-bold rounded-lg px-4 py-3 ${classes} shadow-md text-xl`}
                   >
                     {title}
                   </span>
                 </div>
-                <p className="text-left w-3/4">{description}</p>
+                <p className="text-left w-1/2 mt-3 text-gray-500 text-md">
+                  {description}
+                </p>
               </div>
             ))}
           </div>
