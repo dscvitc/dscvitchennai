@@ -29,7 +29,7 @@ const Vision = () => {
   ];
 
   return (
-    <div name="vision" className="w-full mx-12 sm:mx-0" id="vision">
+    <div name="vision" className="w-full sm:mx-0" id="vision">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full md:flex-row">
         <div className="">
           <Title title="Vision" />
