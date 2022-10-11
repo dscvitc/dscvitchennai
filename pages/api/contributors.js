@@ -4,7 +4,7 @@
 import process from "process";
 const { Octokit } = require("@octokit/rest");
 
-const api_key = process.env.API_URL;
+const api_key = process.env.OCTOKIT_API;
 const octokit = new Octokit({
   auth: api_key,
 });

@@ -3,9 +3,7 @@ import Image from "next/image";
 import ContributorList from "../../data/contributors.json";
 import { FaLinkedin, FaGithub, FaSearch } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
-
-const cardVariants = {};
+import { useState } from "react";
 
 const CardItem = ({ item }) => {
   return (
