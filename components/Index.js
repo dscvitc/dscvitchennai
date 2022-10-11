@@ -9,7 +9,7 @@ const Index = () => {
       >
         <div className="mx-auto w-full p-4 md:h-[85vh] md:flex flex-col justify-center lg:max-w-2xl">
           <h1 className="text-4xl md:text-3xl font-bold md:font-semibold lg:text-5xl lg:font-medium ">
-            Welcome to VIT Chennai's Google Developer Student Club!
+            {"Welcome to VIT Chennai's Google Developer Student Club!"}
           </h1>
           <p className="text-xl my-4 lg:text-2xl">
             At GDSC VITC we aim to help each other learn and grow. This is where

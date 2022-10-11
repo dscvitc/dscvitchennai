@@ -37,7 +37,7 @@ const Vision = () => {
             <div className="max-w-sm flex flex-row py-2">
               <div className="flex flex-col">
                 <p className="text-gray-500 text-[18px] text-center py-2">
-                  GDSC VIT Chennai is inspired by Google Developer's Famiy
+                  {"GDSC VIT Chennai is inspired by Google Developer's Famiy"}
                 </p>
                 <p className="text-gray-500 text-[18px] text-center">
                   Our Goal is to learn,explore, innovate and create. And also,

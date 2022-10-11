@@ -39,7 +39,7 @@ const CardItem = ({ item }) => {
 
 export default function CardList() {
   const [input, setInput] = useState("");
-  const [actualList, setActualList] = useState(ContributorList);
+  const [actualList] = useState(ContributorList);
   const [list, setList] = useState(ContributorList);
 
   const handleSubmit = () => {
