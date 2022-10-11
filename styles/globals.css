@@ -23,3 +23,8 @@ body {
   color: black;
   background: white;
 }
+
+@font-face {
+  font-family: "ProductSans";
+  src: url("../Assets/Font/ProductSans/ProductSansRegular.ttf");
+}
