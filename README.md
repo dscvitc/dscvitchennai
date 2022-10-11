@@ -3,11 +3,10 @@
     <tr>
         <td>
             <a href="https://dscvitchennai-nine.vercel.app/">
-            <img src='https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/DSC%20Vellore%20Institute%20of%20Technology%2C%20Chennai%20Light%20Horizontal-Logo.png'>
+            <img src='public\Icons\DSC Vellore Institute of Technology, Chennai Light Horizontal-Logo.png'>
             </a>
         </td>
 </table>
-
 <br>
 
 > ## 📂&nbsp; FRAMEWORKS USED
@@ -25,12 +24,14 @@
 
 > ## 👩‍💻&nbsp; WEBSITE DESIGN
 >
-> <img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/GDSC%20Website%20Mockup.png" alt="DSC Design" />
-> <br></br>
-> ## 👋&nbsp; SOCIAL MEDIA
+> <img align="left" src="Assets\GDSC Website Mockup.png" alt="DSC Design" />
+<br />
+
+## 👋&nbsp; SOCIAL MEDIA
 >
-> <br/>
-> <a href="https://www.linkedin.com/company/dsc-vit-chennai"><img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/linkedin.png" alt="DSC Linkedin" width="30px"/></a>
-> <a href="https://www.instagram.com/gdscvitchennai/"><img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/instagram.png" alt="DSC Instagram" width="30px"/></a>
-> <a href="https://discord.gg/FE7XE9ttmU"><img align="left" src="https://github.com/dscvitc/dscvitchennai/blob/main/Assets/Icons/discord.png" alt="DSC Discord" width="30px"/></a><br><br/>
-> - Make sure to star our repository if you liked our work!
+ <br/>
+
+> <a href="https://www.linkedin.com/company/dsc-vit-chennai"><img align="left" src="public\Icons\linkedin.png" alt="DSC Linkedin" width="30px"/></a>
+> <a href="https://www.instagram.com/gdscvitchennai/"><img align="left" src="public\Icons\instagram.png" alt="DSC Instagram" width="30px"/></a>
+> <a href="https://discord.gg/FE7XE9ttmU"><img align="left" src="public\Icons\discord.png" alt="DSC Discord" width="30px"/></a><br><br/>
+Make sure to star our repository if you liked our work!
