@@ -61,33 +61,33 @@ const Navbar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 child:text-sm lg:child:text-base child-hover:underline underline-offset-[100%]">
-              <li className="text-black">
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 child:text-sm lg:child:text-base child-hover:underline underline-offset-[100%] text-black">
+              <li>
                 <Link href="/">
                   <a>Home</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="#vision">
                   <a>Vision</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="/">
                   <a>Team</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="/">
                   <a>Events</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="/">
                   <a>Contact Us</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="/contributors">
                   <a>Contributors</a>
                 </Link>
