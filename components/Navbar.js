@@ -62,7 +62,6 @@ const Navbar = () => {
             }
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 child:text-sm lg:child:text-base child-hover:underline underline-offset-[100%]">
-
               <li className="text-black">
                 <Link href="/">
                   <a>Home</a>
@@ -70,7 +69,6 @@ const Navbar = () => {
               </li>
               <li className="text-black">
                 <Link href="#vision">
-
                   <a>Vision</a>
                 </Link>
               </li>

@@ -1,6 +1,3 @@
-import Image from "next/image";
-import DownArrow from "../Assets/Icons/down-arrow.png";
-
 const Title = ({ title }) => {
   return (
     <div className="flex flex-col items-center justify-center ">
