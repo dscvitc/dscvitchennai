@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .heroContainer {
+    display: grid;
+    grid-template-columns: auto 500px;
+    grid-template-rows: auto 32px;
+  }
+}
