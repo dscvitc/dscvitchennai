@@ -38,6 +38,7 @@ const CardItem = ({ item }) => {
 };
 
 export default function CardList() {
+  const [loading, setLoading] = useState(true);
   const [input, setInput] = useState("");
   const [actualList, setActualList] = useState([]);
   const [list, setList] = useState([]);
@@ -65,10 +66,17 @@ export default function CardList() {
       const data = await res.json();
       setActualList(data);
       setList(data);
+      setLoading(false);
     };
     getData();
   }, []);
-
+  if (loading) {
+    return (
+      <div className="h-96 flex justify-center items-center w-full mx-auto text-center ">
+        <div className="h-16 w-16 rounded-full border-8 border-t-gray-500 animate-spin" />
+      </div>
+    );
+  }
   return (
     <section className="max-w-7xl mx-auto">
       <div className="flex w-full justify-center md:justify-between items-center flex-wrap">
