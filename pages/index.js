@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
 import Index from "../components/Index";
 import Vision from "../components/Vision";
 export default function Home() {
@@ -11,7 +10,6 @@ export default function Home() {
         <link rel="icon" href="gdsc.png" />
       </Head>
       <div>
-        <Navbar />
         <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
           {/* Width snap for the whole content. Must be added to the root of every "page" */}
           <Index />
