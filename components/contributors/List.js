@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const CardItem = ({ item }) => {
-  console.log(item);
   return (
     <motion.div
       whileHover={{ scale: 1.05 }}
@@ -43,8 +42,20 @@ export default function CardList() {
   const [actualList, setActualList] = useState([]);
   const [list, setList] = useState([]);
 
-  const handleSubmit = () => {
-    setList(actualList.filter((item) => item.name.includes(input)));
+  const handleSubmit = (e) => {
+    if (e) {
+      e.preventDefault();
+    }
+    console.log(actualList[0]);
+    if (input) {
+      setList(
+        actualList.filter((item) =>
+          item.login.toLowerCase().includes(input.toLowerCase())
+        )
+      );
+    } else {
+      setList(actualList);
+    }
   };
 
   // Get list of contributors from /api/contributors
@@ -54,26 +65,22 @@ export default function CardList() {
       const data = await res.json();
       setActualList(data);
       setList(data);
-      console.log("Data fetched => " + data);
     };
     getData();
   }, []);
 
   return (
-    <section
-      className="max-w-7xl mx-auto"
-      onDoubleClick={() => console.log(list, actualList)}
-    >
+    <section className="max-w-7xl mx-auto">
       <div className="flex w-full justify-center md:justify-between items-center flex-wrap">
         <h1 className="my-10 text-center text-2xl font-semibold">
           Contributors List
         </h1>
         <form
           className="flex items-center shadow-lg bg-slate-100 px-4 py-2 rounded-lg my-4"
-          onSubmit={() => handleSubmit()}
+          onSubmit={(e) => handleSubmit(e)}
         >
           <motion.div
-            onClick={() => handleSubmit()}
+            onChange={() => handleSubmit()}
             whileHover={{ scale: 1.1 }}
             className="hover:cursor-pointer"
           >
@@ -81,7 +88,10 @@ export default function CardList() {
           </motion.div>
           <input
             value={input}
-            onChange={(event) => setInput(event.target.value)}
+            onChange={(event) => {
+              setInput(event.target.value);
+              handleSubmit(event);
+            }}
             className="mx-5 bg-transparent focus:outline-none text-slate-800"
             placeholder="Enter your name"
           />
@@ -89,7 +99,6 @@ export default function CardList() {
       </div>
       <div className="flex justify-center flex-wrap gap-y-6 mx-auto lg:justify-start">
         {list.map((item, index) => {
-          console.log(item);
           return <CardItem key={index} item={item} />;
         })}
       </div>
