@@ -43,7 +43,8 @@ const Vision = () => {
         <div className="flex flex-col justify-center items-center space-y-10 text-gray-600 -translate-y-20">
           <h1 className="text-center text-6xl  font-bold">Vision</h1>
           <p className="text-2xl text-center">
-            GDSC VIT Chennai is inspired by the Google <br /> Developer's Family
+            GDSC VIT Chennai is inspired by the Google <br /> Developer&apos;
+            Family
           </p>
           <p className="text-2xl text-center">
             Our goal is to learn, explore, innovate and create <br /> And also,
