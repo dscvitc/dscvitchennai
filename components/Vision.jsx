@@ -37,7 +37,7 @@ const Vision = () => {
       >
         <img
           src={`/Icons/arabica-323.png`}
-          className="opacity-10 absolute top-0 right-0 md:right-[10rem] -translate-y-[10rem]  h-[40rem] w-[40rem] md:h-[55rem] md:w-[55rem]"
+          className="opacity-10 absolute top-0 right-0 md:right-[10rem] -translate-y-[10rem] h-[40rem] w-[40rem] md:h-[55rem] md:w-[55rem]"
           alt=""
         />
         <div className="flex flex-col justify-center items-center space-y-10 text-gray-600 -translate-y-20">
