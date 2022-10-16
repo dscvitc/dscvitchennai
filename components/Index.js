@@ -39,7 +39,7 @@ const Index = () => {
       <div className="flex items-center justify-center font-productSans p-16 pb-0 flex-col md:flex-row">
         <div className="flex flex-col space-y-7">
           <p className="text-6xl opacity-70">
-            Welcome to VIT Chennai's <br /> Google Developer Student <br />{" "}
+            Welcome to VIT Chennai&apos;s <br /> Google Developer Student <br />{" "}
             Club!
           </p>
           <p className="text-gray-600 text-2xl md:text-xl font-light">
