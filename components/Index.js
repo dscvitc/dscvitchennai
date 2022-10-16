@@ -1,42 +1,65 @@
-import Image from "next/image";
-import styles from "./Index.module.css";
+/* eslint-disable */
 const Index = () => {
   return (
-    <>
-      {/*root of page*/}
-      <div
-        className={`lg:grid grid-cols-2 grid-rows-2 ${styles.heroContainer}`}
-      >
-        <div className="mx-auto w-full p-4 md:h-[85vh] md:flex flex-col justify-center lg:max-w-2xl">
-          <h1 className="text-4xl md:text-3xl font-bold md:font-semibold lg:text-5xl lg:font-medium ">
-            {"Welcome to VIT Chennai's Google Developer Student Club!"}
-          </h1>
-          <p className="text-xl my-4 lg:text-2xl">
+    <div>
+      {/* <Image
+        className="float-right"
+        src="/sammy-devices.png"
+        alt="Sammy"
+        width={500}
+        height={500}
+      />
+      <Image
+        className="absolute bottom-0 ml-96"
+        src="/down-arrow.png"
+        alt="Down Arrow"
+        width={40}
+        height={40}
+      />
+      <div className="box-content h-28 w-3/5 p-4  m4">
+        <h1 className="text-6xl">
+         
+        </h1>
+        <div className="text-3xl">
+          At GDSC VITC we aim to help each other learn and grow. This is where
+          coders,designers and managers come together to create and inspire
+          many. Join us to be a part of this exciting adventure!
+        </div>
+      </div> */}
+
+      {/* <Image
+        className="absolute mr-4"
+        src="/sammy-devices.png"
+        alt="Sammy"
+        width={500}
+        height={500}
+      /> */}
+      {/* <Image src="/down-arrow.png" alt="down arrow" width={40} height={40} /> */}
+
+      <div className="flex items-center justify-center font-productSans p-16 pb-0 flex-col md:flex-row">
+        <div className="flex flex-col space-y-7">
+          <p className="text-6xl opacity-70">
+            Welcome to VIT Chennai's <br /> Google Developer Student <br />{" "}
+            Club!
+          </p>
+          <p className="text-gray-600 text-2xl md:text-xl font-light">
             At GDSC VITC we aim to help each other learn and grow. This is where
             coders,designers and managers come together to create and inspire
             many. Join us to be a part of this exciting adventure!
           </p>
         </div>
-        <div className="flex justify-center md:hidden lg:block lg:w-fit lg:m-auto">
-          <Image
-            src="/sammy-devices.png"
-            alt="Sammy"
-            width={500}
-            height={500}
-            className=""
-          />
-        </div>
-        <div className="flex justify-center col-span-2 h-fit">
-          <Image
-            src="/down-arrow.png"
-            alt="Down Arrow"
-            width={40}
-            height={40}
-            className="animate-bounce"
+        <div className="">
+          <img
+            src={`/Icons/sammy-devices.png `}
+            className="w-full h-full"
+            alt=""
           />
         </div>
       </div>
-    </>
+      <div className="w-10 h-10 m-auto mb-16 animate-bounce">
+        <img src={`/Icons/down-arrow.png`} alt="" />
+      </div>
+    </div>
   );
 };
 export default Index;

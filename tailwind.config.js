@@ -19,6 +19,9 @@ module.exports = {
       fontFamily: {
         productSans: ["ProductSans", "sans-serif"],
       },
+      backgroundImage: {
+        spiralImg: "url('/Icons/arabica-323.png')",
+      },
     },
   },
   plugins: [
