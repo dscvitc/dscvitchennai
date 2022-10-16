@@ -14,22 +14,22 @@ const Footer = () => {
         </p>
         <div className="max-w-sm grid grid-cols-3 gap-8 py-8 sm:px-0 w-60">
           <a href="">
-            <img src={"/Icons/email.png"} />
+            <img src={"/Icons/email.png"} alt="email" />
           </a>
           <a href="">
-            <img src={"/Icons/instagram.png"} />
+            <img src={"/Icons/instagram.png"} alt="instagram" />
           </a>
           <a href="">
-            <img src={"/Icons/linkedin.png"} />
+            <img src={"/Icons/linkedin.png"} alt="linkedin" />
           </a>
           <a href="">
-            <img src={"/Icons/discord.png"} />
+            <img src={"/Icons/discord.png"} alt="discord" />
           </a>
           <a href="">
-            <img src={"/Icons/github.png"} />
+            <img src={"/Icons/github.png"} alt="github" />
           </a>
           <a href="">
-            <img src={"/Icons/telegram.png"} />
+            <img src={"/Icons/telegram.png"} alt="telegram" />
           </a>
         </div>
         <p className="text-center text-xl text-gray-500">
