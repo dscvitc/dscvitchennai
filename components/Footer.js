@@ -38,7 +38,7 @@ const Footer = () => {
         <br />
         <div className="md:space-x-8 flex justify-center items-center flex-wrap w-1/2">
           <input
-            className="border-2 border-gray-400 focus:border-black h-full w-[26rem] p-2 text-center pr-4 rounded-md ml-4 mb-2 mt-2"
+            className="border-2 border-gray-400 focus:border-black h-full w-[26rem] p-2 text-center pr-4 rounded-md ml-4 mb-2 mt-2 z-[1]"
             placeholder="Enter your email"
           ></input>
           <button className="h-full bg-gray-700 p-2 pl-4 pr-4 rounded-md text-white">
