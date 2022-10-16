@@ -1,4 +1,3 @@
-import React from "react";
 const Footer = () => {
   return (
     <div className="m-2 relative">
@@ -15,22 +14,22 @@ const Footer = () => {
         </p>
         <div className="max-w-sm grid grid-cols-3 gap-8 py-8 sm:px-0 w-60">
           <a href="">
-            <img src={"/Icons/email.png"}></img>
+            <img src={"/Icons/email.png"} />
           </a>
           <a href="">
-            <img src={"/Icons/instagram.png"}></img>
+            <img src={"/Icons/instagram.png"} />
           </a>
           <a href="">
-            <img src={"/Icons/linkedin.png"}></img>
+            <img src={"/Icons/linkedin.png"} />
           </a>
           <a href="">
-            <img src={"/Icons/discord.png"}></img>
+            <img src={"/Icons/discord.png"} />
           </a>
           <a href="">
-            <img src={"/Icons/github.png"}></img>
+            <img src={"/Icons/github.png"} />
           </a>
           <a href="">
-            <img src={"/Icons/telegram.png"}></img>
+            <img src={"/Icons/telegram.png"} />
           </a>
         </div>
         <p className="text-center text-xl text-gray-500">
