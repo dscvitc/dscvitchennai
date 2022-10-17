@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Revelation",
+    "date": "11th to 14th Nov, 2021",
+    "link": "https://www.google.com/",
+    "type": "new",
+    "img": "icons8-android-os-100.png"
+  },
+  {
+    "name": "Revelation",
+    "date": "11th to 14th Nov, 2021",
+    "link": "https://www.google.com/",
+    "type": "past",
+    "img": "icons8-android-os-100.png"
+  },
+  {
+    "name": "Revelation",
+    "date": "11th to 14th Nov, 2021",
+    "link": "https://www.google.com/",
+    "type": "new",
+    "img": "icons8-android-os-100.png"
+  },
+  {
+    "name": "Crypto Decrypted",
+    "date": "19th Nov, 2021",
+    "link": "https://www.google.com/",
+    "type": "past",
+    "img": "icons8-android-os-100.png"
+  },
+  {
+    "name": "Doorway to Web Development",
+    "date": "26th to 27th Sep, 2021",
+    "link": "https://www.google.com/",
+    "type": "past",
+    "img": "icons8-android-os-100.png"
+  }
+]

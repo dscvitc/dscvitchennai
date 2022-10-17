@@ -1,16 +1,19 @@
+import Image from "next/future/image";
+
 /* eslint-disable */
 const Boardmembercard = ({ givenName, img, role, color }) => {
   return (
     <div className="bg-white opacity-100 z-50 h-[20rem] w-[15rem] rounded-3xl shadow-lg m-4 flex flex-col justify-center items-center">
-      <img
+      <Image
         src={img}
-        className="p-8 pb-3"
+        className="p-6 rounded-full"
         alt=""
-        style={{ borderRadius: "50%" }}
+        width={400}
+        height={400}
       />
       <div className="flex flex-col items-center justify-center p-4 pt-0 mb-5 space-x-2">
         <p className="font-bold text-lg">{givenName}</p>
-        <p style={{ color: color }} className={`text-xl`}>
+        <p style={{ color: color }} className={`text-xl text-center`}>
           {role}
         </p>
       </div>

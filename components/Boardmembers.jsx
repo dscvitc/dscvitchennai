@@ -12,15 +12,15 @@ const Boardmembers = () => {
   const { width } = useWindowDimensions();
 
   return (
-    <div className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-10 ">
+    <div className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-10 mb-5">
       <div className="flex flex-col justify-center items-center space-y-6 text-gray-700 z-10">
-        <h1 className="text-center text-6xl  font-bold">The Board</h1>
+        <h1 className="text-center text-6xl font-bold">The Board</h1>
         <p className="text-center text-xl">2022-23</p>
         <p className="text-xl z-50 text-gray-500 text-center max-w-xl md:max-w-2xl">
           Our Team comprised of g-fuel drinking developers, aesthetic obsessed
           desginers and managers that love nothing but perfection
         </p>
-        <div className="bg-urbanFinishing scale-y-[-1] rotate-[-2deg] bg-cover h-[26rem] md:h-full md:w-full absolute opacity-30 translate-y-[23rem] -z-50">
+        <div className="bg-urbanFinishing scale-y-[-1] md:h-[40rem] bg-cover h-[26rem] w-full absolute opacity-30 translate-y-[23rem] -z-50">
           {/* <img src={`/Icons/urban-finishing-tape-1.png`} className="opacity-20 absolute rotate-[25deg] translate-y-80 -z-50" alt="" /> */}
         </div>
       </div>
