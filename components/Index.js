@@ -56,7 +56,7 @@ const Index = () => {
           />
         </div>
       </div>
-      <div className="w-10 h-10 m-auto mb-16 animate-bounce">
+      <div className="w-10 h-10 m-auto mb-24 animate-bounce">
         <img src={`/Icons/down-arrow.png`} alt="" />
       </div>
     </div>
