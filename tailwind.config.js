@@ -19,6 +19,10 @@ module.exports = {
       fontFamily: {
         productSans: ["ProductSans", "sans-serif"],
       },
+      backgroundImage: {
+        spiralImg: "url('/Icons/arabica-323.png')",
+        urbanFinishing: "url('/Icons/urban-finishing-tape-1.png')",
+      },
     },
   },
   plugins: [

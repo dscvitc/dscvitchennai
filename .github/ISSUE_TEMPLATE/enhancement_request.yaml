@@ -2,10 +2,10 @@ name: 💡 Enhancement Request
 description: Have a new idea/feature for GDSC VITC? Please suggest!
 title: "[FEATURE] <description>"
 labels: ["enhancement", "suggestion"]
-  
+
 body:
   - type: markdown
-    id: 
+    id:
     attributes:
       value: |
         **Your issue may already be reported!**
@@ -28,7 +28,7 @@ body:
     id: current
     attributes:
       label: Current Behaviour
-      description: Explain the difference of expected Behavior from current behaviour 
+      description: Explain the difference of expected Behavior from current behaviour
     validations:
       required: false
   - type: textarea
@@ -38,10 +38,10 @@ body:
       description: Is there anything else we should know about this idea?
     validations:
       required: false
-  
+
   - type: markdown
     attributes:
       value: |
-       ## Thanks for taking the time to add a issue!
-        To claim this issue, please ask for it below. 
-        The maintainers will assign a contributor to this issue.
+        ## Thanks for taking the time to add a issue!
+         To claim this issue, please ask for it below. 
+         The maintainers will assign a contributor to this issue.

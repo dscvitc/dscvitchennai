@@ -2,29 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  color: black;
-  background: white;
-}
-
 @font-face {
   font-family: "ProductSans";
   src: url("../Assets/Font/ProductSans/ProductSansRegular.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.swiper-button-next {
+  color: white;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 2rem;
+  border-radius: 9999px;
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),
+    0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* center swiper slides */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev {
+  background-color: white;
+  /* border: 1px solid gray; */
+  padding: 2rem;
+  border-radius: 9999px;
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),
+    0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transform: translateX(0.7rem);
+}
+
+.swiper-button-next {
+  background-color: white;
+  border: 1px solid white;
+  padding: 2rem;
+  border-radius: 9999px;
+  transform: translateX(-0.7rem);
+}
+
+.swiper-button-next::after {
+  color: rgb(104, 104, 104);
+}
+
+.swiper-button-prev::after {
+  color: rgb(104, 104, 104);
 }

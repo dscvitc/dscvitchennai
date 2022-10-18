@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Fidal Mathew",
+    "image": "https://avatars.githubusercontent.com/u/84982038?v=4",
+    "role": "Open Source Lead",
+    "description": "Web Developer | Learning :)",
+    "github": "https://github.com/FidalMathew",
+    "linkedIn": "https://www.linkedin.com/in/fidalmathew/",
+    "color": "#4b916c"
+  },
+  {
+    "name": "Narayan Subramanian",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQGw1ZZLOexy-Q/profile-displayphoto-shrink_800_800/0/1657260532292?e=1671667200&v=beta&t=2v4GchH7mZCfuAyL92zijo1WQXnaxUe5tK5bD3gCXm4",
+    "role": "Blockchain Lead",
+    "description": "Enthusiastic Web Developer",
+    "github": "",
+    "linkedIn": "https://www.linkedin.com/in/narayan-subramanian/",
+    "color": "#4b916c"
+  },
+  {
+    "name": "Vigya Sharma",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQF_ujtq41alwg/profile-displayphoto-shrink_800_800/0/1659076002033?e=1671667200&v=beta&t=VZQJwKIvcRnyCTZtOPzXd4LtN6QXhqq3oF2SDOHYB9Y",
+    "role": "Marketing Lead",
+    "description": "Web Developer | Learning :)",
+    "github": "",
+    "linkedIn": "linkedin.com/in/vigya-sharma-1540bb217/",
+    "color": "#4b916c"
+  },
+  {
+    "name": "Manas Tiwari",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQG1qGz9YxXtlw/profile-displayphoto-shrink_800_800/0/1655475397913?e=1671667200&v=beta&t=KU8eOxRwG57RqxnFSXzhFPHLQ0mywFerV4qtKSfWrGM",
+    "role": "Competitive Programming Lead",
+    "description": "Enthusiastic Web Developer",
+    "github": "",
+    "linkedIn": "https://www.linkedin.com/in/manas-tiwari-5631a31b6/",
+    "color": "#4b916c"
+  }
+]
