@@ -1,8 +1,16 @@
+import Image from "next/future/image";
+import cyborg_lines from "../public/Icons/cyborg-lines-9.png";
+import email from "../public/Icons/email.png";
+import instagram from "../public/Icons/instagram.png";
+import linkedIn from "../public/Icons/linkedin.png";
+import github from "../public/Icons/github.png";
+import telegram from "../public/Icons/telegram.png";
+import discord from "../public/Icons/discord.png";
 const Footer = () => {
   return (
     <div className="m-2 relative">
-      <img
-        src={`/Icons/cyborg-lines-9.png`}
+      <Image
+        src={cyborg_lines}
         className="opacity-10 absolute bottom-0 md:bottom-0 translate-y-16 left-[-7rem] md:left-[7rem] md:right-[10rem] h-[20rem] w-[20rem] md:h-[30rem] md:w-[30rem]"
         alt=""
       />
@@ -14,22 +22,22 @@ const Footer = () => {
         </p>
         <div className="max-w-sm grid grid-cols-3 gap-8 py-8 sm:px-0 w-60">
           <a href="">
-            <img src={"/Icons/email.png"} alt="email" />
+            <Image src={email} alt="email" />
           </a>
           <a href="">
-            <img src={"/Icons/instagram.png"} alt="instagram" />
+            <Image src={instagram} alt="instagram" />
           </a>
           <a href="">
-            <img src={"/Icons/linkedin.png"} alt="linkedin" />
+            <Image src={linkedIn} alt="linkedin" />
           </a>
           <a href="">
-            <img src={"/Icons/discord.png"} alt="discord" />
+            <Image src={discord} alt="discord" />
           </a>
           <a href="">
-            <img src={"/Icons/github.png"} alt="github" />
+            <Image src={github} alt="github" />
           </a>
           <a href="">
-            <img src={"/Icons/telegram.png"} alt="telegram" />
+            <Image src={telegram} alt="telegram" />
           </a>
         </div>
         <p className="text-center text-xl text-gray-500">
