@@ -32,26 +32,25 @@ const Vision = () => {
   return (
     <>
       <div
-        className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-2"
+        className="font-productSans h-full relative w-full flex flex-col mt-2 space-y-6"
         id="vision"
       >
         <img
           src={`/Icons/arabica-323.png`}
-          className="opacity-10 absolute top-0 right-0 md:right-[10rem] -translate-y-[10rem] h-[40rem] w-[40rem] md:h-[55rem] md:w-[55rem]"
+          className="opacity-10 absolute top-0 right-0 md:right-[10rem] -translate-y-[10rem] h-[25rem] w-[25rem] md:h-[40rem] md:w-[40rem]"
           alt=""
         />
-        <div className="flex flex-col justify-center items-center space-y-10 text-gray-600 -translate-y-20">
-          <h1 className="text-center text-6xl  font-bold">Vision</h1>
-          <p className="text-2xl text-center">
-            GDSC VIT Chennai is inspired by the Google <br /> Developer&apos;
-            Family
+        <div className="flex flex-col justify-center items-center ml-7 mr-0 space-y-6 text-gray-600 -translate-y-20">
+          <h1 className="text-center text-6xl font-bold">Vision</h1>
+          <p className="text-2xl text-center max-w-lg md:max-w-2xl">
+            GDSC VIT Chennai is inspired by the Google Developer&apos;Family
           </p>
-          <p className="text-2xl text-center">
+          <p className="text-2xl text-center max-w-lg md:max-w-2xl">
             Our goal is to learn, explore, innovate and create <br /> And also,
             having fun!
           </p>
         </div>
-        <div className="max-w-screen m-auto sm:place-content-start md:space-x-10 lg:gap-0 grid grid-cols-2 sm:grid-cols-4 gap-8 py-8 sm:px-0">
+        <div className="max-w-screen md:m-auto sm:place-content-start md:space-x-10 lg:gap-0 grid grid-cols-2 sm:grid-cols-4 gap-8 ml-10">
           {visions.map(({ id, title, description, classes }) => (
             <div key={id} className="flex flex-col w-[10rem] text-[1.2rem]">
               <div className="my-4">
