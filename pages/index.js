@@ -2,8 +2,6 @@ import Boardmembers from "../components/Boardmembers";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Index from "../components/Index";
-/* eslint-disable */
-import Navbar from "../components/Navbar";
 import Vision from "../components/Vision";
 export default function Home() {
   return (
