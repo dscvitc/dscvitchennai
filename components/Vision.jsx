@@ -71,10 +71,6 @@ const Vision = () => {
             />
           </Link>
         </div>
-        {/* 
-        bg-[#adc7f0c3] p-2 font-bold text-[#4285F4] rounded w-[88%] flex justify-center items-center
-        bg-[#acecc6] p-2 font-bold text-[#0f9d58d4] rounded w-[88%] flex justify-center items-center
-        */}
       </div>
     </>
   );

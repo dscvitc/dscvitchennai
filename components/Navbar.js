@@ -6,11 +6,6 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div className="">
-      <Head>
-        <title>GDSC VIT Chennai</title>
-        <meta name="description" content="GDSC VIT Chennai" />
-        <link rel="icon" href="gdsc.png" />
-      </Head>
       <nav className="w-full shadow justify-between px-4 md:items-center md:flex md:px-8 font-productSans">
         <div className="image flex-1">
           <Link href={`/`}>

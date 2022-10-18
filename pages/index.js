@@ -13,7 +13,6 @@ export default function Home() {
         <meta name="description" content="GDSC VIT Chennai" />
         <link rel="icon" href="gdsc.png" />
       </Head>
-      <Navbar />
       <Index />
       <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
         <Vision />
