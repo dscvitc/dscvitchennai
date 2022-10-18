@@ -18,7 +18,7 @@ const Events = () => {
           width={100}
           height={100}
           src={`/Icons/kingdom-72.png`}
-          className="opacity-20 absolute top-[8rem] right-[3rem] md:right-[-2rem] h-[30rem] w-[30rem] md:-translate-y-[10rem] -translate-y-[23rem] rotate-[-40deg] md:rotate-0 md:h-[30rem] md:w-[23rem]"
+          className="opacity-20 absolute top-[8rem] right-[3rem] md:right-5 md:top-[15rem] h-[30rem] w-[30rem] md:-translate-y-[10rem] -translate-y-[23rem] rotate-[-40deg] md:rotate-0 md:h-[30rem] md:w-[23rem]"
           alt=""
         />
         <div className="flex flex-col justify-center items-center ml-7 mr-0 space-y-6 text-gray-600">
