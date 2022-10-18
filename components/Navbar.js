@@ -1,16 +1,10 @@
 /* eslint-disable */
-import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div className="">
-      <Head>
-        <title>GDSC VIT Chennai</title>
-        <meta name="description" content="GDSC VIT Chennai" />
-        <link rel="icon" href="gdsc.png" />
-      </Head>
       <nav className="w-full shadow justify-between px-4 md:items-center md:flex md:px-8 font-productSans">
         <div className="image flex-1">
           <Link href={`/`}>
@@ -79,22 +73,22 @@ const Navbar = () => {
                   <a>Vision</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="/">
                   <a>Team</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="/">
                   <a>Events</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="/">
                   <a>Contact Us</a>
                 </Link>
               </li>
-              <li className="text-black">
+              <li>
                 <Link href="/contributors">
                   <a>Contributors</a>
                 </Link>

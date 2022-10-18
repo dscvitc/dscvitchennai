@@ -1,17 +1,22 @@
-/* eslint-disable */
-import Navbar from "../components/Navbar";
+import BoardMembers from "../components/Boardmembers";
+import Footer from "../components/Footer";
+import Head from "next/head";
 import Index from "../components/Index";
 import Vision from "../components/Vision";
-import Footer from "../components/Footer";
-import Boardmembers from "../components/Boardmembers";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <Head>
+        <title>GDSC VIT Chennai</title>
+        <meta name="description" content="GDSC VIT Chennai" />
+        <link rel="icon" href="gdsc.png" />
+      </Head>
       <Index />
-      <Vision />
-      <Boardmembers />
-      <Footer />
+      <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
+        <Vision />
+        <BoardMembers />
+        <Footer />
+      </div>
     </div>
   );
 }

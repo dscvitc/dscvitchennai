@@ -1,7 +1,7 @@
 import Image from "next/future/image";
 
 /* eslint-disable */
-const Boardmembercard = ({ givenName, img, role, color }) => {
+const BoardMemberCard = ({ givenName, img, role, color }) => {
   return (
     <div className="bg-white opacity-100 z-50 h-[20rem] w-[15rem] rounded-3xl shadow-lg m-4 flex flex-col justify-center items-center">
       <Image
@@ -21,4 +21,4 @@ const Boardmembercard = ({ givenName, img, role, color }) => {
   );
 };
 
-export default Boardmembercard;
+export default BoardMemberCard;

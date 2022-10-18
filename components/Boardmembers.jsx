@@ -1,14 +1,16 @@
-/* eslint-disable */
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper";
-import Boardmembercard from "./Boardmembercard";
-import useWindowDimensions from "../Hooks/useWindowDimension";
-import data from "../data/Boardmember.json";
-import Link from "next/link";
 
-const Boardmembers = () => {
+/* eslint-disable */
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import BoardMemberCard from "./Boardmembercard";
+import Link from "next/link";
+import { Navigation } from "swiper";
+import data from "../data/BoardMember.json";
+import useWindowDimensions from "../Hooks/useWindowDimension";
+
+const BoardMembers = () => {
   const { width } = useWindowDimensions();
 
   return (
@@ -37,7 +39,7 @@ const Boardmembers = () => {
           {data.map(({ name, image, description, role, color }) => {
             return (
               <SwiperSlide className="" key={name}>
-                <Boardmembercard
+                <BoardMemberCard
                   givenName={name}
                   img={image}
                   desc={description}
@@ -67,4 +69,4 @@ const Boardmembers = () => {
   );
 };
 
-export default Boardmembers;
+export default BoardMembers;
