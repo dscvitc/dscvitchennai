@@ -1,4 +1,4 @@
-import Boardmembers from "../components/Boardmembers";
+import BoardMembers from "../components/Boardmembers";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Index from "../components/Index";
@@ -14,7 +14,7 @@ export default function Home() {
       <Index />
       <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
         <Vision />
-        <Boardmembers />
+        <BoardMembers />
         <Footer />
       </div>
     </div>
