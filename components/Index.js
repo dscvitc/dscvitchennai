@@ -18,9 +18,9 @@ const Index = () => {
           <Image
             height={1000}
             width={1000}
-            src={`/Icons/sammy-devices.png `}
+            src={`/Icons/sammy-devices.png`}
             className="w-full h-full"
-            alt=""
+            alt="image"
           />
         </div>
       </div>

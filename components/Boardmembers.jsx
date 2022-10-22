@@ -17,8 +17,8 @@ const BoardMembers = () => {
         <h1 className="text-center text-6xl font-bold">The Board</h1>
         <p className="text-center text-xl">2022-23</p>
         <p className="text-xl z-50 text-gray-500 text-center max-w-xl md:max-w-2xl">
-          Our Team comprised of g-fuel drinking developers, aesthetic obsessed
-          desginers and managers that love nothing but perfection
+          Our Team comprised of g-fuel drinking developers, desginers and
+          managers that love nothing but perfection ing but perfection
         </p>
         <div className="bg-urbanFinishing scale-y-[-1] md:h-[40rem] bg-cover h-[26rem] w-full absolute opacity-30 translate-y-[23rem] -z-50">
           {/* <img src={`/Icons/urban-finishing-tape-1.png`} className="opacity-20 absolute rotate-[25deg] translate-y-80 -z-50" alt="" /> */}
@@ -57,8 +57,8 @@ const BoardMembers = () => {
       >
         <Link href={`/`}>
           <Image
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             src={`/Icons/down-arrow.png`}
             className="w-10 h-10 cursor-pointer"
             alt=""
