@@ -1,12 +1,11 @@
 import CardList from "../components/contributors/List";
-import Navbar from "../components/Navbar";
 
 const Contributors = () => {
   return (
-    <>
-      <Navbar />
+    <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
+      {/* Width snap for the whole content. Must be added to the root of every "page" */}
       <CardList />
-    </>
+    </div>
   );
 };
 

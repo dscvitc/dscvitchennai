@@ -1,14 +1,14 @@
-/* eslint-disable */
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper";
-import Boardmembercard from "./Boardmembercard";
-import useWindowDimensions from "../Hooks/useWindowDimension";
-import data from "../data/Boardmember.json";
+import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+import BoardMemberCard from "./Boardmembercard";
 import Link from "next/link";
+import { Navigation } from "swiper";
+import data from "../data/BoardMember.json";
+import useWindowDimensions from "../Hooks/useWindowDimension";
 
-const Boardmembers = () => {
+const BoardMembers = () => {
   const { width } = useWindowDimensions();
 
   return (
@@ -37,7 +37,7 @@ const Boardmembers = () => {
           {data.map(({ name, image, description, role, color }) => {
             return (
               <SwiperSlide className="" key={name}>
-                <Boardmembercard
+                <BoardMemberCard
                   givenName={name}
                   img={image}
                   desc={description}
@@ -56,7 +56,9 @@ const Boardmembers = () => {
         style={{ marginTop: "3rem" }}
       >
         <Link href={`/`}>
-          <img
+          <Image
+            width={100}
+            height={100}
             src={`/Icons/down-arrow.png`}
             className="w-10 h-10 cursor-pointer"
             alt=""
@@ -67,4 +69,4 @@ const Boardmembers = () => {
   );
 };
 
-export default Boardmembers;
+export default BoardMembers;

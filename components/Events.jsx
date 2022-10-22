@@ -3,11 +3,9 @@ import events from "../data/events.json";
 import Eventcard from "./Eventcard";
 import "swiper/css";
 import "swiper/css/navigation";
-import useWindowDimensions from "../Hooks/useWindowDimension";
 import Image from "next/future/image";
 
 const Events = () => {
-  const { width } = useWindowDimensions();
   return (
     <>
       <div
@@ -28,7 +26,7 @@ const Events = () => {
           New Event
         </p>
         <div
-          className={`md:m-24 md:ml-44 md:mr-44 ml-5 mr-5 grid grid-cols-2 md:grid-cols-3 gap-6`}
+          className={`md:m-24 md:ml-44 md:mr-44 ml-5 mr-5 grid sm:grid-cols-2 md:grid-cols-3 gap-6`}
         >
           {/* Card */}
           {events.map(({ name, date, link, type, img }) => {
@@ -50,9 +48,7 @@ const Events = () => {
           Past Event
         </p>
         <div
-          className={`md:m-24 md:ml-44 md:mr-44 ml-5 mr-5 grid grid-cols-2 md:grid-cols-${
-            width < 1000 ? 2 : 3
-          } gap-6`}
+          className={`md:m-24 md:ml-44 md:mr-44 ml-5 mr-5 grid sm:grid-cols-2 md:grid-cols-3 gap-6`}
         >
           {/* Card */}
           {events.map(({ name, date, link, type, img }) => {
@@ -73,7 +69,9 @@ const Events = () => {
         </div>
         <div className="flex justify-center items-center w-full animate-bounce">
           <Link href={`/`}>
-            <img
+            <Image
+              width={100}
+              height={100}
               src={`/Icons/down-arrow.png`}
               className="w-10 h-10 cursor-pointer"
               alt=""
