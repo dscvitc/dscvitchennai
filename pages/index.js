@@ -1,8 +1,9 @@
-import BoardMembers from "../components/Boardmembers";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Index from "../components/Index";
 import Vision from "../components/Vision";
+import Boardmembers from "../components/Boardmembers";
+import Events from "../components/Events";
 export default function Home() {
   return (
     <div>
@@ -12,11 +13,10 @@ export default function Home() {
         <link rel="icon" href="gdsc.png" />
       </Head>
       <Index />
-      <div className="mx-auto md:max-w-4xl lg:max-w-7xl ">
-        <Vision />
-        <BoardMembers />
-        <Footer />
-      </div>
+      <Vision />
+      <Boardmembers />
+      <Events />
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-/* eslint-disable */
+import Image from "next/future/image";
 const Index = () => {
   return (
     <div>
@@ -15,15 +15,23 @@ const Index = () => {
           </p>
         </div>
         <div className="">
-          <img
-            src={`/Icons/sammy-devices.png `}
+          <Image
+            height={1000}
+            width={1000}
+            src={`/Icons/sammy-devices.png`}
             className="w-full h-full"
-            alt=""
+            alt="image"
           />
         </div>
       </div>
       <div className="w-10 h-10 m-auto mb-24 animate-bounce">
-        <img src={`/Icons/down-arrow.png`} alt="" />
+        <Image
+          width={100}
+          height={100}
+          src={`/Icons/down-arrow.png`}
+          className="w-10 h-10 cursor-pointer"
+          alt=""
+        />
       </div>
     </div>
   );
