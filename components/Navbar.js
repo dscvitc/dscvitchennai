@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Image from "next/future/image";
 import logo from "../public/Icons/horizontal-logo.png";
-import { clearConfigCache } from "prettier";
 import { useState } from "react";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
