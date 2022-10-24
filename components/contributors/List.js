@@ -27,7 +27,7 @@ const CardItem = ({ item }) => {
       <p>Contributions {item.contributions ? item.contributions : "0"}</p>
       <div className="flex w-2/5 justify-evenly items-center">
         <Link href={item.html_url ? item.html_url : "#"}>
-          <a>
+          <a target="_blank">
             <FaGithub className="cursor-pointer" size={24} />
           </a>
         </Link>
