@@ -1,5 +1,7 @@
 /* eslint-disable */
 import Link from "next/link";
+import Image from "next/future/image";
+import logo from "../public/Icons/horizontal-logo.png";
 import { clearConfigCache } from "prettier";
 import { useState } from "react";
 const Navbar = () => {
@@ -10,18 +12,16 @@ const Navbar = () => {
 
   return (
     <nav className="w-full px-5 gap-3 h-20 shadow fixed z-[100] flex items-center justify-between bg-white  md:flex md:justify-between md:items-center">
-      <span className="cursor-pointer md:w-[500px] bg-white">
+      <span className="cursor-pointer md:w-[500px] bg-white md:w-60 md-ml-5  m m-3 w-64 flex items-center">
         <Link href="{`/`}">
-          <img
-            src="/Icons/horizontal-logo.png"
-            alt="gdsc logo"
-            className="md:w-60 md-ml-5  m m-3 w-64 "
-          />
+          <a>
+            <Image src={logo} alt="gdsc logo" />
+          </a>
         </Link>
       </span>
 
       <div
-        className="text-5xl cursor-pointer mx-2 md:hidden block h-10 w-7"
+        className="text-5xl cursor-pointer mx-2 md:hidden block h-10 w-7 flex items-center"
         onClick={onClickHandler}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
