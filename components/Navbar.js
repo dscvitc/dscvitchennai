@@ -1,103 +1,70 @@
 /* eslint-disable */
 import Link from "next/link";
+import Image from "next/future/image";
+import logo from "../public/Icons/horizontal-logo.png";
 import { useState } from "react";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
+  const onClickHandler = () => {
+    setNavbar(!navbar);
+  };
+
   return (
-    <div className="">
-      <nav className="w-full shadow justify-between px-4 md:items-center md:flex md:px-8 font-productSans">
-        <div className="image flex-1">
-          <Link href={`/`}>
-            <img
-              src="/Icons/horizontal-logo.png"
-              alt="gdsc logo"
-              className="w-1/3 h-1/3 m-3"
-            />
-          </Link>
-        </div>
+    <nav className="w-full px-5 gap-3 h-20 shadow fixed z-[100] flex items-center justify-between bg-white  md:flex md:justify-between md:items-center">
+      <span className="cursor-pointer md:w-[500px] bg-white md:w-60 md-ml-5  m m-3 w-64 flex items-center">
+        <Link href="{`/`}">
+          <a>
+            <Image src={logo} alt="gdsc logo" />
+          </a>
+        </Link>
+      </span>
 
-        <div className="hidden items-center justify-between py-3 md:py-5 md:flex">
-          {/* Responsive Navbar */}
-          <div className="md:hidden">
-            <button
-              className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-              onClick={() => setNavbar(!navbar)}
-            >
-              {navbar ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 text-white"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              ) : (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
-              )}
-            </button>
-          </div>
-        </div>
+      <div
+        className="text-5xl cursor-pointer mx-2 md:hidden block h-10 w-7 flex items-center"
+        onClick={onClickHandler}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+        </svg>
+      </div>
 
-        <div>
-          <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "hidden" : "block"
-            }`}
-          >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-black">
-                <Link href="/">
-                  <a>Home</a>
-                </Link>
-              </li>
-              <li className="text-black">
-                <Link href="/">
-                  <a>Vision</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <a>Team</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <a>Events</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <a>Contact Us</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contributors">
-                  <a>Contributors</a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+      <ul
+        className={`md:flex md:items-center -z-50  md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100  mt-0 transition-all ease-in duration-500 ${
+          !navbar && "opacity-0 top-[-400px]"
+        } ${navbar && "opacity-100 top-20"}`}
+      >
+        <li className="mx-4 mb-6 md:my-0">
+          <a href="#" className="text-black">
+            Home
+          </a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="#" className="text-black">
+            Vision
+          </a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="#" className="text-black">
+            Team
+          </a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="#" className="text-black">
+            Events
+          </a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="#" className="text-black">
+            Contact
+          </a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="#" className="text-black">
+            Contributors
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

@@ -56,13 +56,15 @@ const BoardMembers = () => {
         style={{ marginTop: "3rem" }}
       >
         <Link href={`/`}>
-          <Image
-            width={50}
-            height={50}
-            src={`/Icons/down-arrow.png`}
-            className="w-10 h-10 cursor-pointer"
-            alt=""
-          />
+          <a>
+            <Image
+              width={50}
+              height={50}
+              src={`/Icons/down-arrow.png`}
+              className="w-10 h-10 cursor-pointer"
+              alt=""
+            />
+          </a>
         </Link>
       </div>
     </div>
