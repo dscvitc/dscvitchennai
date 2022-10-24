@@ -1,6 +1,5 @@
+/* eslint-disable */
 import { Head, Html, Main, NextScript } from "next/document";
-
-import Navbar from "../components/Navbar";
 
 export default function Document() {
   return (
@@ -20,7 +19,7 @@ export default function Document() {
         <link rel="icon" href="gdsc.png" />
       </Head>
       <body className="bg-gray-50">
-        <Navbar />
+        {/* <Navbar /> */}
         <Main />
         <NextScript />
       </body>
