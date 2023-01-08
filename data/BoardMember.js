@@ -1,5 +1,5 @@
 import OS_lead from "../public/Leads/oslead.png";
-import DS_lead from "../public/Leads/dslead.jpg";
+import DS_lead from "../public/Leads/dslead.png";
 
 const boardMembers = [
   {
