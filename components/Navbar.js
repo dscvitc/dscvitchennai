@@ -59,9 +59,9 @@ const Navbar = () => {
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
+          <Link href="/contributors" className="text-black">
             Contributors
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
