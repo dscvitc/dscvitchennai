@@ -1,4 +1,5 @@
 import OS_lead from "../public/Leads/oslead.png";
+import DS_lead from "../public/Leads/dslead.png";
 
 const boardMembers = [
   {
@@ -12,12 +13,12 @@ const boardMembers = [
   },
   {
     name: "Aron Ritesh",
-    image: OS_lead,
+    image: DS_lead,
     role: "Data Science Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
     linkedIn: "https://www.linkedin.com/in/fidalmathew/",
-    color: "#4b916c",
+    color: "#c01e34",
   },
   {
     name: "Harisha S",
