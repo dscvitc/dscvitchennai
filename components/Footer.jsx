@@ -6,6 +6,17 @@ import linkedIn from "../public/Icons/linkedin.png";
 import github from "../public/Icons/github.png";
 import telegram from "../public/Icons/telegram.png";
 import discord from "../public/Icons/discord.png";
+
+const ReactIcon = (image, link) => {
+  return (
+    <>
+      <a href={link}>
+        <Image src={image} alt="email" />
+      </a>
+    </>
+  );
+};
+
 const Footer = () => {
   return (
     <div className="m-2 relative">
@@ -21,24 +32,12 @@ const Footer = () => {
           We are very active on the following platforms
         </p>
         <div className="max-w-sm grid grid-cols-3 gap-8 py-8 sm:px-0 w-60">
-          <a href="">
-            <Image src={email} alt="email" />
-          </a>
-          <a href="">
-            <Image src={instagram} alt="instagram" />
-          </a>
-          <a href="">
-            <Image src={linkedIn} alt="linkedin" />
-          </a>
-          <a href="">
-            <Image src={discord} alt="discord" />
-          </a>
-          <a href="">
-            <Image src={github} alt="github" />
-          </a>
-          <a href="">
-            <Image src={telegram} alt="telegram" />
-          </a>
+          <ReactIcon image={email} link="mailto:gdsc.vitc@gmail.com" />
+          <ReactIcon image={instagram} link="" />
+          <ReactIcon image={linkedIn} link="" />
+          <ReactIcon image={discord} link="discord" />
+          <ReactIcon image={github} link="github" />
+          <ReactIcon image={telegram} link="telegram" />
         </div>
         <p className="text-center text-xl text-gray-500">
           Want to stay updated with the latest news and events at GDSC VITC
