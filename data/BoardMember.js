@@ -1,11 +1,25 @@
-import OS_lead from "../public/Leads/oslead.png";
+import A_Lead from "../public/Leads/appDev.webp";
+import B_lead from "../public/Leads/blockchain.webp";
+import C_Lead from "../public/Leads/cp.webp";
+import Design_lead from "../public/Leads/design.webp";
+import Placeholder from "../public/Leads/placeholder.png"
 import DS_lead from "../public/Leads/dslead.png";
+import OS_lead from "../public/Leads/oslead.png";
 
 const boardMembers = [
   {
     name: "Fidal Mathew",
     image: OS_lead,
     role: "Open Source Lead",
+    description: "Web Developer | Learning :)",
+    github: "https://github.com/FidalMathew",
+    linkedIn: "https://www.linkedin.com/in/fidalmathew/",
+    color: "#4b916c",
+  },
+  {
+    name: "Harisha S",
+    image: Placeholder,
+    role: "Overall Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
     linkedIn: "https://www.linkedin.com/in/fidalmathew/",
@@ -20,18 +34,10 @@ const boardMembers = [
     linkedIn: "https://www.linkedin.com/in/fidalmathew/",
     color: "#c01e34",
   },
-  {
-    name: "Harisha S",
-    image: OS_lead,
-    role: "Overall Lead",
-    description: "Web Developer | Learning :)",
-    github: "https://github.com/FidalMathew",
-    linkedIn: "https://www.linkedin.com/in/fidalmathew/",
-    color: "#4b916c",
-  },
+
   {
     name: "Manas Tiwari",
-    image: OS_lead,
+    image: C_Lead,
     role: "CP Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -40,7 +46,7 @@ const boardMembers = [
   },
   {
     name: "Vishal Sankar",
-    image: OS_lead,
+    image: A_Lead,
     role: "App dev Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -49,7 +55,7 @@ const boardMembers = [
   },
   {
     name: "Arjun P",
-    image: OS_lead,
+    image: Placeholder,
     role: "Web dev Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -59,7 +65,7 @@ const boardMembers = [
 
   {
     name: "Rahul Sunov",
-    image: OS_lead,
+    image: Placeholder,
     role: "Web dev Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -69,7 +75,7 @@ const boardMembers = [
 
   {
     name: "Apoorva Waman",
-    image: OS_lead,
+    image: Design_lead,
     role: "Design Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -78,7 +84,7 @@ const boardMembers = [
   },
   {
     name: "Narayan Subramanian",
-    image: OS_lead,
+    image: B_lead,
     role: "Blockchain Lead",
     description: "Enthusiastic Web Developer",
     github: "",
@@ -87,7 +93,7 @@ const boardMembers = [
   },
   {
     name: "Vigya Sharma",
-    image: OS_lead,
+    image: Placeholder,
     role: "Marketing Lead",
     description: "Web Developer | Learning :)",
     github: "",
