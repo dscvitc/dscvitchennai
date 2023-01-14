@@ -1,11 +1,27 @@
-import Image from "next/future/image";
+import Image from "next/image";
+import * as React from "react";
+import {
+  AiFillGithub,
+  AiFillLinkedin, AiOutlineInstagram
+} from "react-icons/ai";
+import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import cyborg_lines from "../public/Icons/cyborg-lines-9.png";
-import email from "../public/Icons/email.png";
-import instagram from "../public/Icons/instagram.png";
-import linkedIn from "../public/Icons/linkedin.png";
-import github from "../public/Icons/github.png";
-import telegram from "../public/Icons/telegram.png";
-import discord from "../public/Icons/discord.png";
+
+const ReactIcon = (props) => {
+  return (
+    <>
+      <a
+        href={props?.link}
+        className="text-4xl text-gray-700 hover:-translate-y-0.5"
+        target="__blank"
+      >
+        {props?.Icon}
+      </a>
+    </>
+  );
+};
+
 const Footer = () => {
   return (
     <div className="m-2 relative">
@@ -21,24 +37,15 @@ const Footer = () => {
           We are very active on the following platforms
         </p>
         <div className="max-w-sm grid grid-cols-3 gap-8 py-8 sm:px-0 w-60">
-          <a href="">
-            <Image src={email} alt="email" />
-          </a>
-          <a href="">
-            <Image src={instagram} alt="instagram" />
-          </a>
-          <a href="">
-            <Image src={linkedIn} alt="linkedin" />
-          </a>
-          <a href="">
-            <Image src={discord} alt="discord" />
-          </a>
-          <a href="">
-            <Image src={github} alt="github" />
-          </a>
-          <a href="">
-            <Image src={telegram} alt="telegram" />
-          </a>
+          <ReactIcon Icon={<MdEmail />} link="mailto:gdsc.vitc@gmail.com" />
+          <ReactIcon
+            Icon={<AiOutlineInstagram />}
+            link="https://www.instagram.com/gdscvitchennai"
+          />
+          <ReactIcon Icon={<AiFillLinkedin />} link="https://www.linkedin.com/company/68808386/" />
+          <ReactIcon Icon={<FaDiscord />} link="https://discord.gg/KMG76e7m" />
+          <ReactIcon Icon={<AiFillGithub />} link="https://github.com/dscvitc/" />
+          <ReactIcon Icon={<FaTelegramPlane />} link="telegram" />
         </div>
         <p className="text-center text-xl text-gray-500">
           Want to stay updated with the latest news and events at GDSC VITC
