@@ -33,7 +33,8 @@ const Vision = () => {
     <>
       <div
         className="font-productSans h-full relative w-full flex flex-col mt-2 space-y-6"
-        id="vision"
+        id="vision" data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
       >
         <img
           src={`/Icons/arabica-323.png`}
