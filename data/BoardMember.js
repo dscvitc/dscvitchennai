@@ -1,10 +1,13 @@
-import A_Lead from "../public/Leads/appDev.webp";
 import B_lead from "../public/Leads/blockchain.webp";
-import C_Lead from "../public/Leads/cp.webp";
+import CP_Lead from "../public/Leads/manas.jpg";
+import Marketing_lead from "../public/Leads/vigya.jpg";
 import Design_lead from "../public/Leads/design.webp";
-import Placeholder from "../public/Leads/placeholder.png"
-import DS_lead from "../public/Leads/dslead.png";
+import DS_lead from "../public/Leads/aron.jpg";
 import OS_lead from "../public/Leads/oslead.png";
+import Overall_lead from "../public/Leads/harisha.jpg";
+import Web1_lead from "../public/Leads/arjun.jpg";
+import Web2_lead from "../public/Leads/rahul.jpg";
+import App_lead from "../public/Leads/vishal.jpg";
 
 const boardMembers = [
   {
@@ -18,7 +21,7 @@ const boardMembers = [
   },
   {
     name: "Harisha S",
-    image: Placeholder,
+    image: Overall_lead,
     role: "Overall Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -37,7 +40,7 @@ const boardMembers = [
 
   {
     name: "Manas Tiwari",
-    image: C_Lead,
+    image: CP_Lead,
     role: "CP Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -46,7 +49,7 @@ const boardMembers = [
   },
   {
     name: "Vishal Sankar",
-    image: A_Lead,
+    image: App_lead,
     role: "App dev Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -55,7 +58,7 @@ const boardMembers = [
   },
   {
     name: "Arjun P",
-    image: Placeholder,
+    image: Web1_lead,
     role: "Web dev Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -65,7 +68,7 @@ const boardMembers = [
 
   {
     name: "Rahul Sunov",
-    image: Placeholder,
+    image: Web2_lead,
     role: "Web dev Lead",
     description: "Web Developer | Learning :)",
     github: "https://github.com/FidalMathew",
@@ -93,7 +96,7 @@ const boardMembers = [
   },
   {
     name: "Vigya Sharma",
-    image: Placeholder,
+    image: Marketing_lead,
     role: "Marketing Lead",
     description: "Web Developer | Learning :)",
     github: "",
