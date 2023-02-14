@@ -25,7 +25,7 @@ const ReactIcon = (props) => {
 const Footer = () => {
   return (
     <div
-      className="m-2 relative bg-fill bg-contain bg-opacity-20 bg-no-repeat bg-[-296px_bottom]"
+      className="m-2 relative bg-fill bg-contain bg-opacity-20 bg-no-repeat bg-[-296px_bottom] flex min-h-screen flex-col justify-center"
       style={{
         backgroundImage: `url('${cyborg_lines.src}')`,
       }}
