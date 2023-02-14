@@ -1,12 +1,12 @@
-import Image from "next/image";
 import * as React from "react";
 import {
   AiFillGithub,
-  AiFillLinkedin, AiOutlineInstagram
+  AiFillLinkedin,
+  AiOutlineInstagram,
 } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import cyborg_lines from "../public/Icons/cyborg-lines-9.png";
+import cyborg_lines from "../public/Icons/cyborg-opac20.png";
 
 const ReactIcon = (props) => {
   return (
@@ -24,12 +24,12 @@ const ReactIcon = (props) => {
 
 const Footer = () => {
   return (
-    <div className="m-2 relative">
-      <Image
-        src={cyborg_lines}
-        className="opacity-10 absolute bottom-0 md:bottom-0 translate-y-16 left-[-7rem] md:left-[7rem] md:right-[10rem] h-[20rem] w-[20rem] md:h-[30rem] md:w-[30rem]"
-        alt=""
-      />
+    <div
+      className="m-2 relative bg-fill bg-contain bg-opacity-20 bg-no-repeat bg-[-296px_bottom] flex min-h-screen flex-col justify-center"
+      style={{
+        backgroundImage: `url('${cyborg_lines.src}')`,
+      }}
+    >
       <div className="flex flex-col items-center h-[100] font-productSans text-center">
         <p className="text-6xl font-bold text-gray-600 p-5">Contact Us</p>
         <br />
@@ -42,9 +42,15 @@ const Footer = () => {
             Icon={<AiOutlineInstagram />}
             link="https://www.instagram.com/gdscvitchennai"
           />
-          <ReactIcon Icon={<AiFillLinkedin />} link="https://www.linkedin.com/company/68808386/" />
+          <ReactIcon
+            Icon={<AiFillLinkedin />}
+            link="https://www.linkedin.com/company/68808386/"
+          />
           <ReactIcon Icon={<FaDiscord />} link="https://discord.gg/KMG76e7m" />
-          <ReactIcon Icon={<AiFillGithub />} link="https://github.com/dscvitc/" />
+          <ReactIcon
+            Icon={<AiFillGithub />}
+            link="https://github.com/dscvitc/"
+          />
           <ReactIcon Icon={<FaTelegramPlane />} link="telegram" />
         </div>
         <p className="text-center text-xl text-gray-500">

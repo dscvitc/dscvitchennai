@@ -10,8 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full px-5 gap-3 h-20 shadow fixed z-[100] flex items-center justify-between bg-white  md:flex md:justify-between md:items-center" data-aos="fade-up"
-    data-aos-anchor-placement="center-center">
+    <nav
+      className="w-full px-5 gap-3 h-20 shadow fixed z-[100] flex items-center justify-between bg-white  md:flex md:justify-between md:items-center"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-center"
+    >
       <span className="cursor-pointer md:w-[500px] bg-white md:w-60 md-ml-5  m m-3 w-64 flex items-center">
         <Link href="{`/`}">
           <a>

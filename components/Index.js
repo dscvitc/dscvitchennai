@@ -2,8 +2,11 @@ import Image from "next/future/image";
 const Index = () => {
   return (
     <div>
-      <div className="flex items-center justify-center font-productSans p-16 pt-[150px] pb-0 flex-col md:flex-row" data-aos="fade-up"
-     data-aos-anchor-placement="center-center">
+      <div
+        className="flex items-center justify-center font-productSans p-16 pt-[150px] pb-0 flex-col md:flex-row"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+      >
         <div className="flex flex-col space-y-7">
           <p className="text-6xl opacity-70">
             Welcome to VIT Chennai&apos;s <br /> Google Developer Student <br />{" "}

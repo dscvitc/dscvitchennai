@@ -16,19 +16,21 @@ export default function Document() {
           rel="stylesheet"
         />
 
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link
+          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          rel="stylesheet"
+        />
 
         <meta name="description" content="GDSC VIT Chennai" />
         <link rel="icon" href="gdsc.png" />
       </Head>
       <body className="bg-gray-50">
         {/* <Navbar /> */}
+        <Main />
         <NextScript />
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-        <script>
-          AOS.init();
-        </script>
+        <script>AOS.init();</script>
       </body>
     </Html>
   );
