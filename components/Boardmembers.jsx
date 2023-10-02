@@ -12,8 +12,11 @@ const BoardMembers = () => {
   const { width } = useWindowDimensions();
 
   return (
-    <div className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-10 mb-5" data-aos="fade-up"
-    data-aos-anchor-placement="center-center">
+    <div
+      className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-10 mb-5"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-center"
+    >
       <div className="flex flex-col justify-center items-center space-y-6 text-gray-700 z-10">
         <h1 className="text-center text-6xl font-bold">The Board</h1>
         <p className="text-center text-xl">2022-23</p>
@@ -35,19 +38,23 @@ const BoardMembers = () => {
           modules={[Navigation]}
           className="mySwiper"
         >
-          {data.map(({ name, image, description, role, color }) => {
-            return (
-              <SwiperSlide className="" key={name}>
-                <BoardMemberCard
-                  givenName={name}
-                  img={image}
-                  desc={description}
-                  role={role}
-                  color={color}
-                />
-              </SwiperSlide>
-            );
-          })}
+          {data.map(
+            ({ name, image, description, role, color, linkedIn, github }) => {
+              return (
+                <SwiperSlide className="" key={name}>
+                  <BoardMemberCard
+                    givenName={name}
+                    img={image}
+                    desc={description}
+                    role={role}
+                    color={color}
+                    linkedIn={linkedIn}
+                    github={github}
+                  />
+                </SwiperSlide>
+              );
+            }
+          )}
         </Swiper>
 
         {/* Card */}
