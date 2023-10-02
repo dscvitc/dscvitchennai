@@ -1,5 +1,6 @@
 /* eslint-disable */
 import Link from "next/link";
+import Image from "next/future/image";
 
 const Vision = () => {
   const visions = [
@@ -33,13 +34,16 @@ const Vision = () => {
     <>
       <div
         className="font-productSans h-full relative w-full flex flex-col mt-2 space-y-6"
-        id="vision" data-aos="fade-up"
+        id="vision"
+        data-aos="fade-up"
         data-aos-anchor-placement="center-center"
       >
-        <img
+        <Image
           src={`/Icons/arabica-323.png`}
           className="opacity-10 absolute top-0 right-0 md:right-[10rem] -translate-y-[10rem] h-[25rem] w-[25rem] md:h-[40rem] md:w-[40rem]"
           alt=""
+          width={400}
+          height={400}
         />
         <div className="flex flex-col justify-center items-center ml-7 mr-0 space-y-6 text-gray-600 -translate-y-20">
           <h1 className="text-center text-6xl font-bold">Vision</h1>
@@ -65,7 +69,9 @@ const Vision = () => {
         </div>
         <div className="flex justify-center items-center w-full animate-bounce">
           <Link href={`/`}>
-            <img
+            <Image
+              width={50}
+              height={50}
               src={`/Icons/down-arrow.png`}
               className="w-10 h-10 cursor-pointer"
               alt=""
