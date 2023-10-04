@@ -1,3 +1,4 @@
+import React from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,8 +13,11 @@ const BoardMembers = () => {
   const { width } = useWindowDimensions();
 
   return (
-    <div className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-10 mb-5" data-aos="fade-up"
-    data-aos-anchor-placement="center-center">
+    <div
+      className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-10 mb-5"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-center"
+    >
       <div className="flex flex-col justify-center items-center space-y-6 text-gray-700 z-10">
         <h1 className="text-center text-6xl font-bold">The Board</h1>
         <p className="text-center text-xl">2022-23</p>
@@ -28,7 +32,7 @@ const BoardMembers = () => {
       <div className="md:m-24 md:ml-44 md:mr-44 ml-2 mr-2 z-50">
         {/* Card */}
         <Swiper
-          slidesPerView={width < 1267 ? 1 : 3}
+          slidesPerView={width! < 1267 ? 1 : 3}
           spaceBetween={2}
           navigation={true}
           mousewheel={true}

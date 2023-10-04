@@ -1,10 +1,27 @@
+import React from "react";
 import Image from "next/future/image";
 
+export interface BoardMemberCardProps {
+  givenName: string;
+  img: any;
+  desc?: string;
+  role: string;
+  color: string;
+}
+
 /* eslint-disable */
-const BoardMemberCard = ({ givenName, img, role, color }) => {
+const BoardMemberCard = ({
+  givenName,
+  img,
+  role,
+  color,
+}: BoardMemberCardProps) => {
   return (
-    <div className="bg-white opacity-100 z-50 h-[20rem] w-[15rem] rounded-3xl shadow-lg m-4 flex flex-col justify-center items-center" data-aos="fade-up"
-    data-aos-anchor-placement="center-center">
+    <div
+      className="bg-white opacity-100 z-50 h-[20rem] w-[15rem] rounded-3xl shadow-lg m-4 flex flex-col justify-center items-center"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-center"
+    >
       <Image
         src={img}
         className="p-6 rounded-full"
