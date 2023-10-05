@@ -1,9 +1,9 @@
-/* eslint-disable */
-import React from "react";
-import Link from "next/link";
 import Image from "next/future/image";
-import logo from "../public/Icons/horizontal-logo.png";
+import Link from "next/link";
+import React from "react";
 import { useState } from "react";
+
+import logo from "../public/Icons/horizontal-logo.png";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const onClickHandler = () => {

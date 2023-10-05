@@ -1,16 +1,14 @@
-/* eslint-disable */
-import React from "react";
 import Image from "next/future/image";
+import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export interface BoardMemberCardProps {
   givenName: string;
-  img: any;
+  img: unknown;
   desc?: string;
   role: string;
   color: string;
 }
-
 
 const ReactIcon = (props) => {
   return (
@@ -51,10 +49,10 @@ const BoardMemberCard = ({
 
       <div className="absolute top-1/2 mt-8 flex flex-col items-center">
         <p className="font-bold text-2xl">{givenName}</p>
-        <p style={{ color: color }} className={`text-lg text-center`}>
+        <p style={{ color: color }} className="text-lg text-center">
           {role}
         </p>
-        <p className={`text-mb text-center italic mt-2`}>"{desc}"</p>
+        <p className="text-mb text-center italic mt-2">"{desc}"</p>
       </div>
 
       <div className="flex gap-5 absolute bottom-0 mb-2">

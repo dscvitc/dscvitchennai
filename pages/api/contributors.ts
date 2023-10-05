@@ -1,8 +1,8 @@
 // Using the octokit API to get list of contributors to the Repo
 // /api/contributors
 
+import { Octokit } from "@octokit/rest";
 import process from "process";
-const { Octokit } = require("@octokit/rest");
 
 const api_key = process.env.OCTOKIT_API;
 const octokit = new Octokit({

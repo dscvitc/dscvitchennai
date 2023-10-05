@@ -1,4 +1,5 @@
 import React from "react";
+
 import CardList from "../components/contributors/List";
 
 const Contributors = () => {

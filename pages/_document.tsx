@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { Head, Html, Main, NextScript } from "next/document";
 import React from "react";
 
@@ -34,7 +33,7 @@ export default function Document() {
         {/* <Navbar /> */}
         <Main />
         <NextScript />
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
 
         <script>AOS.init();</script>
       </body>
