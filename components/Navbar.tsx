@@ -60,7 +60,7 @@ const Navbar = () => {
         </li>
         <li className="mx-4 my-6 md:my-0">
           <a href="#contact" className="text-black">
-            Contact
+            Contact Us
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
