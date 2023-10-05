@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import Link from "next/link";
-import Image from "next/future/image";
+import Image from "next/image";
 import logo from "../public/Icons/horizontal-logo.png";
 import { useState } from "react";
 const Navbar = () => {
@@ -17,10 +17,8 @@ const Navbar = () => {
       data-aos-anchor-placement="center-center"
     >
       <span className="cursor-pointer md:w-[500px] bg-white md:w-60 md-ml-5  m m-3 w-64 flex items-center">
-        <Link href="{`/`}">
-          <a>
-            <Image src={logo} alt="gdsc logo" />
-          </a>
+        <Link href="/">
+          <Image src={logo} alt="gdsc logo" />
         </Link>
       </span>
 

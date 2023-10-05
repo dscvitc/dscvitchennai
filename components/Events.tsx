@@ -4,7 +4,7 @@ import events from "../data/events.json";
 import Eventcard from "./Eventcard";
 import "swiper/css";
 import "swiper/css/navigation";
-import Image from "next/future/image";
+import Image from "next/image";
 
 const Events = () => {
   return (
@@ -72,15 +72,13 @@ const Events = () => {
         </div>
         <div className="flex justify-center items-center w-full animate-bounce">
           <Link href={`/`}>
-            <a>
-              <Image
-                width={100}
-                height={100}
-                src={`/Icons/down-arrow.png`}
-                className="w-10 h-10 cursor-pointer"
-                alt=""
-              />
-            </a>
+            <Image
+              width={100}
+              height={100}
+              src={`/Icons/down-arrow.png`}
+              className="w-10 h-10 cursor-pointer"
+              alt=""
+            />
           </Link>
         </div>
         {/* 
