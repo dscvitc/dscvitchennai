@@ -16,7 +16,7 @@ const Navbar = () => {
       data-aos="fade-up"
       data-aos-anchor-placement="center-center"
     >
-      <span className="cursor-pointer md:w-[500px] bg-white md:w-60 md-ml-5  m m-3 w-64 flex items-center">
+      <span className="cursor-pointer bg-white md:w-60 md-ml-5  m m-3 w-64 flex items-center">
         <Link href="{`/`}">
           <a>
             <Image src={logo} alt="gdsc logo" />
@@ -25,7 +25,7 @@ const Navbar = () => {
       </span>
 
       <div
-        className="text-5xl cursor-pointer mx-2 md:hidden block h-10 w-7 flex items-center"
+        className="text-5xl cursor-pointer mx-2 md:hidden flex h-10 w-7 items-center"
         onClick={onClickHandler}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
