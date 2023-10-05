@@ -11,6 +11,7 @@ export interface BoardMemberCardProps {
   color: string;
 }
 
+
 const ReactIcon = (props) => {
   return (
     <>

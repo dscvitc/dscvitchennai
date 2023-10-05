@@ -18,6 +18,7 @@ import Outreach_Lead from "../public/Leads/Outreach.png";
 import UI_UX_Lead from "../public/Leads/UI_UX.png";
 import Placeholder from "../public/Leads/placeholder.png";
 
+
 const boardMembers = [
   {
     name: "Zahran Sajid",

@@ -9,6 +9,7 @@ import { Navigation } from "swiper";
 import data from "../data/BoardMember";
 import useWindowDimensions from "../Hooks/useWindowDimension";
 
+
 const BoardMembers = () => {
   const { width } = useWindowDimensions();
 
