@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/future/image";
 import Link from "next/link";
 
@@ -5,7 +6,8 @@ const Eventcard = ({ eventname, date, img, link, type }) => {
   return (
     <div
       className="w-full md:w-full h-full flex rounded-2xl p-4 items-center justify-center space-x-4 border-2 border-gray-200"
-      style={{ boxShadow: "0px 4px 2px gray" }} data-aos="fade-up"
+      style={{ boxShadow: "0px 4px 2px gray" }}
+      data-aos="fade-up"
       data-aos-anchor-placement="center-center"
     >
       <Image width={100} height={200} src={`/Icons/${img}`} alt="" />

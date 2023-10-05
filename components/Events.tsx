@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import events from "../data/events.json";
 import Eventcard from "./Eventcard";
@@ -10,7 +11,8 @@ const Events = () => {
     <>
       <div
         className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-10 mb-5"
-        id="events" data-aos="fade-up"
+        id="events"
+        data-aos="fade-up"
         data-aos-anchor-placement="center-center"
       >
         <Image

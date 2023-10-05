@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/future/image";
 const Index = () => {
   return (

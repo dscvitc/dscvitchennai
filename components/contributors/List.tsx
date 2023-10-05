@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub, FaSearch } from "react-icons/fa";
@@ -43,14 +44,14 @@ export default function CardList() {
   const [actualList, setActualList] = useState([]);
   const [list, setList] = useState([]);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e?) => {
     if (e) {
       e.preventDefault();
     }
     console.log(actualList[0]);
     if (input) {
       setList(
-        actualList.filter((item) =>
+        actualList.filter((item: any) =>
           item.login.toLowerCase().includes(input.toLowerCase())
         )
       );

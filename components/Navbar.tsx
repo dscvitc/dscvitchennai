@@ -1,4 +1,5 @@
 /* eslint-disable */
+import React from "react";
 import Link from "next/link";
 import Image from "next/future/image";
 import logo from "../public/Icons/horizontal-logo.png";
@@ -43,23 +44,23 @@ const Navbar = () => {
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
+          <a href="#vision" className="text-black">
             Vision
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
+          <a href="#team" className="text-black">
             Team
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
+          <a href="#events" className="text-black">
             Events
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
-            Contact
+          <a href="#contact" className="text-black">
+            Contact Us
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
