@@ -44,22 +44,22 @@ const Navbar = () => {
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
+          <a href="#vision" className="text-black">
             Vision
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
+          <a href="#team" className="text-black">
             Team
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
+          <a href="#events" className="text-black">
             Events
           </a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-black">
+          <a href="#contact" className="text-black">
             Contact
           </a>
         </li>

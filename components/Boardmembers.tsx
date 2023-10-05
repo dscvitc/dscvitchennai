@@ -15,6 +15,7 @@ const BoardMembers = () => {
   return (
     <div
       className="font-productSans h-full relative w-full flex flex-col space-y-10 mt-10 mb-5"
+      id="team"
       data-aos="fade-up"
       data-aos-anchor-placement="center-center"
     >
@@ -39,19 +40,23 @@ const BoardMembers = () => {
           modules={[Navigation]}
           className="mySwiper"
         >
-          {data.map(({ name, image, description, role, color }) => {
-            return (
-              <SwiperSlide className="" key={name}>
-                <BoardMemberCard
-                  givenName={name}
-                  img={image}
-                  desc={description}
-                  role={role}
-                  color={color}
-                />
-              </SwiperSlide>
-            );
-          })}
+          {data.map(
+            ({ name, image, description, role, color, linkedIn, github }) => {
+              return (
+                <SwiperSlide className="" key={name}>
+                  <BoardMemberCard
+                    givenName={name}
+                    img={image}
+                    desc={description}
+                    role={role}
+                    color={color}
+                    linkedIn={linkedIn}
+                    github={github}
+                  />
+                </SwiperSlide>
+              );
+            }
+          )}
         </Swiper>
 
         {/* Card */}
