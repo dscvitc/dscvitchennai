@@ -12,10 +12,11 @@
   "dependencies": {
     "@octokit/rest": "^19.0.5",
     "framer-motion": "^7.10.3",
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "sharp": "^0.32.6",
     "swiper": "^8.4.5"
   },
   "devDependencies": {

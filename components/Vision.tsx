@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import Link from "next/link";
-import Image from "next/future/image";
+import Image from "next/image";
 
 const Vision = () => {
   const visions = [

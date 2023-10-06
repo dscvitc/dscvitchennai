@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import Image from "next/future/image";
+import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export interface BoardMemberCardProps {
@@ -10,7 +10,6 @@ export interface BoardMemberCardProps {
   role: string;
   color: string;
 }
-
 
 const ReactIcon = (props) => {
   return (

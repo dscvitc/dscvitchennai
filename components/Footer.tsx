@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -11,13 +12,13 @@ import cyborg_lines from "../public/Icons/cyborg-opac20.png";
 const ReactIcon = (props) => {
   return (
     <>
-      <a
+      <Link
         href={props?.link}
         className="text-4xl text-gray-700 hover:-translate-y-0.5"
         target="__blank"
       >
         {props?.Icon}
-      </a>
+      </Link>
     </>
   );
 };
