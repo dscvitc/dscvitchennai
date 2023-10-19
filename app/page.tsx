@@ -1,4 +1,4 @@
-import Head from "next/head";
+"use client";
 import React from "react";
 
 import Boardmembers from "../components/Boardmembers";
@@ -10,10 +10,6 @@ import Vision from "../components/Vision";
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>GDSC VIT Chennai</title>
-        <meta name="description" content="GDSC VIT Chennai" />
-      </Head>
       <Navbar />
       <Index />
       <Vision />

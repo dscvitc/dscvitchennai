@@ -1,6 +1,7 @@
+"use client";
 import React from "react";
 
-import CardList from "../components/contributors/List";
+import CardList from "../../components/contributors/List";
 
 const Contributors = () => {
   return (

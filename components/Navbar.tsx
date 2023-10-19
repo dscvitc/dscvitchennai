@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { useState } from "react";
@@ -16,11 +16,9 @@ const Navbar = () => {
       data-aos="fade-up"
       data-aos-anchor-placement="center-center"
     >
-      <span className="cursor-pointer bg-white md:w-60 md-ml-5  m m-3 w-64 flex items-center">
-        <Link href="{`/`}">
-          <a>
-            <Image src={logo} alt="gdsc logo" />
-          </a>
+      <span className="cursor-pointer md:w-[500px] bg-white md:w-60 md-ml-5  m m-3 w-64 flex items-center">
+        <Link href="/">
+          <Image src={logo} alt="gdsc logo" />
         </Link>
       </span>
 
