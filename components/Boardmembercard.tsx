@@ -1,13 +1,15 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export interface BoardMemberCardProps {
   givenName: string;
-  img: unknown;
+  img: StaticImageData;
   desc?: string;
   role: string;
   color: string;
+  github: string;
+  linkedIn: string;
 }
 
 const ReactIcon = (props) => {
@@ -32,7 +34,7 @@ const BoardMemberCard = ({
   desc,
   github,
   linkedIn,
-}) => {
+}: BoardMemberCardProps) => {
   return (
     <div
       className="bg-white opacity-100 z-50 h-[25rem] w-[20rem] rounded-3xl shadow-lg flex flex-col justify-center items-center space-x-2 relative"
