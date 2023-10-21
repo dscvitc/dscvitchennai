@@ -1,9 +1,9 @@
-/* eslint-disable */
-import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-import logo from "../public/Icons/horizontal-logo.png";
+import Link from "next/link";
+import React from "react";
 import { useState } from "react";
+
+import logo from "../public/Icons/horizontal-logo.png";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const onClickHandler = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
       </span>
 
       <div
-        className="text-5xl cursor-pointer mx-2 md:hidden block h-10 w-7 flex items-center"
+        className="text-5xl cursor-pointer mx-2 md:hidden flex h-10 w-7 items-center"
         onClick={onClickHandler}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

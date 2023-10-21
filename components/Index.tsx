@@ -1,5 +1,5 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 const Index = () => {
   return (
     <div>
@@ -23,7 +23,7 @@ const Index = () => {
           <Image
             height={1000}
             width={1000}
-            src={`/Icons/sammy-devices.png`}
+            src="/Icons/sammy-devices.png"
             className="w-full h-full"
             alt="image"
           />
@@ -33,7 +33,7 @@ const Index = () => {
         <Image
           width={100}
           height={100}
-          src={`/Icons/down-arrow.png`}
+          src="/Icons/down-arrow.png"
           className="w-10 h-10 cursor-pointer"
           alt=""
         />

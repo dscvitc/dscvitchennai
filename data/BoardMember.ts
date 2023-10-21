@@ -1,23 +1,22 @@
-import OpenSource_Lead from "../public/Leads/OpenSource.jpg";
-import CompetitiveProgramming_Lead1 from "../public/Leads/CompetitiveProgramming1.jpg";
-import CompetitiveProgramming_Lead2 from "../public/Leads/CompetitiveProgramming2.jpg";
-import SocialMedia_Lead1 from "../public/Leads/SocialMedia1.jpg";
-import SocialMedia_Lead2 from "../public/Leads/SocialMedia2.jpg";
-import Management_Lead1 from "../public/Leads/Management1.jpg";
-import Management_Lead2 from "../public/Leads/Management2.png";
-import DataScience_Lead1 from "../public/Leads/DataScience1.jpg";
-import DataScience_Lead2 from "../public/Leads/DataScience2.jpg";
-import Design_Lead from "../public/Leads/Design.jpg";
-import WebDevelopment_Lead1 from "../public/Leads/WebDevelopment1.jpg";
-import WebDevelopment_Lead2 from "../public/Leads/WebDevelopment2.png";
-import Marketing_Lead from "../public/Leads/Marketing.jpg";
 import AppDevelopment_Lead from "../public/Leads/AppDevelopment.jpg";
 import Blockchain_Lead1 from "../public/Leads/Blockchain1.jpg";
 import Blockchain_Lead2 from "../public/Leads/Blockchain2.png";
+import CompetitiveProgramming_Lead1 from "../public/Leads/CompetitiveProgramming1.jpg";
+import CompetitiveProgramming_Lead2 from "../public/Leads/CompetitiveProgramming2.jpg";
+import DataScience_Lead1 from "../public/Leads/DataScience1.jpg";
+import DataScience_Lead2 from "../public/Leads/DataScience2.jpg";
+import Design_Lead from "../public/Leads/Design.jpg";
+import Management_Lead1 from "../public/Leads/Management1.jpg";
+import Management_Lead2 from "../public/Leads/Management2.png";
+import Marketing_Lead from "../public/Leads/Marketing.jpg";
+import OpenSource_Lead from "../public/Leads/OpenSource.jpg";
 import Outreach_Lead from "../public/Leads/Outreach.png";
-import UI_UX_Lead from "../public/Leads/UI_UX.png";
 import Placeholder from "../public/Leads/placeholder.png";
-
+import SocialMedia_Lead1 from "../public/Leads/SocialMedia1.jpg";
+import SocialMedia_Lead2 from "../public/Leads/SocialMedia2.jpg";
+import UI_UX_Lead from "../public/Leads/UI_UX.png";
+import WebDevelopment_Lead1 from "../public/Leads/WebDevelopment1.jpg";
+import WebDevelopment_Lead2 from "../public/Leads/WebDevelopment2.png";
 
 const boardMembers = [
   {

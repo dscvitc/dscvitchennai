@@ -1,11 +1,12 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
+
 import BoardMemberCard from "./Boardmembercard";
-import Link from "next/link";
-import { Navigation } from "swiper";
 import data from "../data/BoardMember";
 import useWindowDimensions from "../Hooks/useWindowDimension";
 
@@ -65,11 +66,11 @@ const BoardMembers = () => {
         className="flex justify-center items-center w-full animate-bounce bg-transparent z-50"
         style={{ marginTop: "3rem" }}
       >
-        <Link href={`/`}>
+        <Link href="/">
           <Image
             width={50}
             height={50}
-            src={`/Icons/down-arrow.png`}
+            src="/Icons/down-arrow.png"
             className="w-10 h-10 cursor-pointer"
             alt=""
           />

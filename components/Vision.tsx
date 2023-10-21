@@ -1,7 +1,6 @@
-/* eslint-disable */
-import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const Vision = () => {
   const visions = [
@@ -40,7 +39,7 @@ const Vision = () => {
         data-aos-anchor-placement="center-center"
       >
         <Image
-          src={`/Icons/arabica-323.png`}
+          src="/Icons/arabica-323.png"
           className="opacity-10 absolute top-0 right-0 md:right-[10rem] -translate-y-[10rem] h-[25rem] w-[25rem] md:h-[40rem] md:w-[40rem]"
           alt=""
           width={400}
@@ -69,11 +68,11 @@ const Vision = () => {
           ))}
         </div>
         <div className="flex justify-center items-center w-full animate-bounce">
-          <Link href={`/`}>
+          <Link href="/">
             <Image
               width={50}
               height={50}
-              src={`/Icons/down-arrow.png`}
+              src="/Icons/down-arrow.png"
               className="w-10 h-10 cursor-pointer"
               alt=""
             />

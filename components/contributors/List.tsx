@@ -1,9 +1,9 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { FaGithub, FaSearch } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 import { useEffect, useState } from "react";
+import { FaGithub, FaSearch } from "react-icons/fa";
 
 const CardItem = ({ item }) => {
   return (
@@ -48,10 +48,9 @@ export default function CardList() {
     if (e) {
       e.preventDefault();
     }
-    console.log(actualList[0]);
     if (input) {
       setList(
-        actualList.filter((item: any) =>
+        actualList.filter((item: { login: string }) =>
           item.login.toLowerCase().includes(input.toLowerCase())
         )
       );

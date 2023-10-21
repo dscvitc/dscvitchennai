@@ -1,5 +1,5 @@
-import * as React from "react";
 import Link from "next/link";
+import * as React from "react";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
 import cyborg_lines from "../public/Icons/cyborg-opac20.png";
 
 const ReactIcon = (props) => {

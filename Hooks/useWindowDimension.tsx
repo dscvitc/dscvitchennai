@@ -1,5 +1,4 @@
-/* eslint-disable */
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function useWindowDimensions() {
   const hasWindow = typeof window !== "undefined";
