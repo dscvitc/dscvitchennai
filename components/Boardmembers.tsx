@@ -24,7 +24,7 @@ const BoardMembers = () => {
         <h1 className="text-center text-6xl font-bold">The Board</h1>
         <p className="text-center text-xl">2022-23</p>
         <p className="text-xl z-50 text-gray-500 text-center max-w-xl md:max-w-2xl">
-          Our Team comprised of g-fuel drinking developers, desginers and
+          Our Team comprised of g-fuel drinking developers, designers and
           managers that love nothing but perfection ing but perfection
         </p>
         <div className="bg-urbanFinishing scale-y-[-1] md:h-[40rem] bg-cover h-[26rem] w-full absolute opacity-30 translate-y-[23rem] -z-50">
