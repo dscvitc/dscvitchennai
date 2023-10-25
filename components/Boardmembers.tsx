@@ -66,7 +66,7 @@ const BoardMembers = () => {
         className="flex justify-center items-center w-full animate-bounce bg-transparent z-50"
         style={{ marginTop: "3rem" }}
       >
-        <Link href="/">
+        <Link href="#events">
           <Image
             width={50}
             height={50}

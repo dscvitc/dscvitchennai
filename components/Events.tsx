@@ -68,7 +68,7 @@ const Events = () => {
           {/* Card */}
         </div>
         <div className="flex justify-center items-center w-full animate-bounce">
-          <Link href="/">
+          <Link href="#contact">
             <Image
               width={100}
               height={100}
