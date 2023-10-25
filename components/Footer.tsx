@@ -40,21 +40,27 @@ const Footer = () => {
           We are very active on the following platforms
         </p>
         <div className="max-w-sm grid grid-cols-3 gap-8 py-8 sm:px-0 w-60">
-          <ReactIcon Icon={<MdEmail />} link="mailto:gdsc.vitc@gmail.com" />
           <ReactIcon
-            Icon={<AiOutlineInstagram />}
+            Icon={<MdEmail className="mail" />}
+            link="mailto:gdsc.vitc@gmail.com"
+          />
+          <ReactIcon
+            Icon={<AiOutlineInstagram className="insta" />}
             link="https://www.instagram.com/gdscvitchennai"
           />
           <ReactIcon
-            Icon={<AiFillLinkedin />}
+            Icon={<AiFillLinkedin className="linked" />}
             link="https://www.linkedin.com/company/68808386/"
           />
-          <ReactIcon Icon={<FaDiscord />} link="https://discord.gg/KMG76e7m" />
           <ReactIcon
-            Icon={<AiFillGithub />}
+            Icon={<FaDiscord className="discord" />}
+            link="https://discord.gg/KMG76e7m"
+          />
+          <ReactIcon
+            Icon={<AiFillGithub className="github" />}
             link="https://github.com/dscvitc/"
           />
-          <ReactIcon Icon={<FaTelegramPlane />} link="telegram" />
+          <ReactIcon Icon={<FaTelegramPlane className="telegram" />} link="#" />
         </div>
         <p className="text-center text-xl text-gray-500">
           Want to stay updated with the latest news and events at GDSC VITC

@@ -33,14 +33,14 @@ const Vision = () => {
   return (
     <>
       <div
-        className="font-productSans h-full relative w-full flex flex-col mt-2 space-y-6"
+        className="mt-20 items-center font-productSans h-full relative w-full flex flex-col space-y-6"
         id="vision"
         data-aos="fade-up"
         data-aos-anchor-placement="center-center"
       >
         <Image
           src="/Icons/arabica-323.png"
-          className="opacity-10 absolute top-0 right-0 md:right-[10rem] -translate-y-[10rem] h-[25rem] w-[25rem] md:h-[40rem] md:w-[40rem]"
+          className="opacity-10 absolute top-0 right-0 md:right-[10rem] -translate-y-[10rem] h-[25rem] w-[25rem] md:h-[40rem] md:w-[40rem] -z-10"
           alt=""
           width={400}
           height={400}
@@ -68,13 +68,13 @@ const Vision = () => {
           ))}
         </div>
         <div className="flex justify-center items-center w-full animate-bounce">
-          <Link href="/">
+          <Link href="#team">
             <Image
               width={50}
               height={50}
               src="/Icons/down-arrow.png"
               className="w-10 h-10 cursor-pointer"
-              alt=""
+              alt="Down arrow"
             />
           </Link>
         </div>

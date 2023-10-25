@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+
 const Index = () => {
   return (
     <div>
@@ -29,14 +31,17 @@ const Index = () => {
           />
         </div>
       </div>
-      <div className="w-10 h-10 m-auto mb-24 animate-bounce">
-        <Image
-          width={100}
-          height={100}
-          src="/Icons/down-arrow.png"
-          className="w-10 h-10 cursor-pointer"
-          alt=""
-        />
+
+      <div className="flex items-center justify-center animate-bounce">
+        <Link href="#vision">
+          <Image
+            width={100}
+            height={100}
+            src="/Icons/down-arrow.png"
+            className="w-10 h-10 cursor-pointer"
+            alt="Down arrow"
+          />
+        </Link>
       </div>
     </div>
   );

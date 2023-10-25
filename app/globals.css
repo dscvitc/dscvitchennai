@@ -62,3 +62,29 @@ html {
 .swiper-button-prev::after {
   color: rgb(104, 104, 104);
 }
+.discord,
+.github,
+.mail,
+.insta,
+.linked,
+.telegram {
+  transition: all 0.25s ease-in-out;
+}
+.discord:hover {
+  color: #7289da;
+}
+.github:hover {
+  color: #c9510c;
+}
+.mail:hover {
+  color: #f7b825;
+}
+.insta:hover {
+  color: #d54283;
+}
+.linked:hover {
+  color: #0a66c2;
+}
+.telegram:hover {
+  color: #0088cc;
+}
