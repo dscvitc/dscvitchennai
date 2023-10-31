@@ -64,8 +64,8 @@ export default function CardList() {
     const getData = async () => {
       const res = await fetch("/api/contributors");
       const data = await res.json();
-      setActualList(data);
-      setList(data);
+      setActualList(data.list.data);
+      setList(data.list.data);
       setLoading(false);
     };
     getData();
